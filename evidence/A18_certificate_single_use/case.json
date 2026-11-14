@@ -1,0 +1,43 @@
+{
+ "case": {
+  "evidence": [
+   {
+    "act": "present",
+    "agent": "agent_a",
+    "min": 1,
+    "type": "attempt"
+   },
+   {
+    "action": "approve_retry",
+    "min": 4,
+    "type": "operator"
+   }
+  ],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 0
+  },
+  "group": "retry",
+  "id": "A18_certificate_single_use",
+  "kind": "correct",
+  "run": "AT3",
+  "title": "One failure certificate allows exactly one retry"
+ },
+ "error": null,
+ "seconds": 0.5,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 0 accepted effects (expected 0)",
+   "satisfied: interface record: agent_a made 1 'present' call(s) (required 1)",
+   "satisfied: operator record: 4 'approve_retry' (required 4)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 0,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

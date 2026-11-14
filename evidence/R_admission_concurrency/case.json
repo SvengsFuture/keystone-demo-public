@@ -1,0 +1,29 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 0
+  },
+  "group": "recovery",
+  "id": "R_admission_concurrency",
+  "kind": "correct",
+  "run": "C1",
+  "title": "Two authorizations requested at once for one admission, 30 trials"
+ },
+ "error": null,
+ "seconds": 7.8,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 0 accepted effects (expected 0)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 0,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

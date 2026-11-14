@@ -1,0 +1,343 @@
+{
+ "bindings": {
+  "mode": "public view",
+  "ok": true,
+  "problems": []
+ },
+ "chains": {
+  "executions.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "lookups.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "operator.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "receipts.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "transcript.jsonl": {
+   "ok": true,
+   "problem": null
+  }
+ },
+ "effects_total": 40,
+ "failures": [],
+ "forbidden": [],
+ "integrity_ok": true,
+ "obligations": {
+  "f00": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f01": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f02": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f03": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> FAILED; failure certificate issued; claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f04": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f05": {
+   "approved": true,
+   "category": "EXECUTED, OUTCOME LEFT UNRESOLVED BY KEYSTONE",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> SENDING; reconciled -> SENDING; reconciled -> ESCALATED",
+   "revocation_issued": false
+  },
+  "f06": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f07": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f08": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f09": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f10": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f11": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f12": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f13": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f14": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> FAILED; failure certificate issued; claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f15": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f16": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f17": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f18": {
+   "approved": true,
+   "category": "EXECUTED, OUTCOME LEFT UNRESOLVED BY KEYSTONE",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> SENDING; reconciled -> SENDING; reconciled -> ESCALATED",
+   "revocation_issued": false
+  },
+  "f19": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f20": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f21": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f22": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f23": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f24": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f25": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> FAILED; failure certificate issued; claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f26": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f27": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f28": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f29": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f30": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f31": {
+   "approved": true,
+   "category": "EXECUTED, OUTCOME LEFT UNRESOLVED BY KEYSTONE",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> SENDING; reconciled -> SENDING; reconciled -> ESCALATED",
+   "revocation_issued": false
+  },
+  "f32": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f33": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f34": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f35": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f36": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> FAILED; failure certificate issued; claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f37": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; reconciled -> RESULT",
+   "revocation_issued": false
+  },
+  "f38": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "f39": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  }
+ },
+ "observed": {
+  "access_attempts": 0,
+  "access_denied_by_os": 0,
+  "access_granted": 0,
+  "attempts": {
+   "agent_a:admit": 44,
+   "agent_a:authorize": 44,
+   "agent_a:present": 44
+  },
+  "credentialed_requests": 44,
+  "effects": 40,
+  "operator_actions": {
+   "approve": 40,
+   "approve_reply": 40,
+   "approve_retry": 4,
+   "ticket": 40
+  },
+  "uncredentialed_requests_rejected": 0
+ },
+ "recorder": {
+  "boundary_uid": 994,
+  "chain_problem": null,
+  "events_from_other_writers_not_used": 216,
+  "recorder_chain_ok": true,
+  "recorder_lines": 508,
+  "sealed_recorder_sha256": "b5cef43a5f56b0fee1925a3b3b52285f397ab292caf459bd8c0f01304c82b44d"
+ },
+ "uncredentialed_requests_rejected": 0
+}

@@ -1,0 +1,1 @@
+{"amount": 100, "attempt": 1, "customer": "C1", "gseq": 10, "obligation": "o1", "payment_ref": "pay-other", "reason": "request_differs_from_authorization", "recorder_seq": 5, "source_line_sha": "da6570341c0273884e784b8fc90fb2e678bfa567e92e356413a6d4b86ef337f2", "type": "refused_at_boundary", "writer": "keystone_boundary"}

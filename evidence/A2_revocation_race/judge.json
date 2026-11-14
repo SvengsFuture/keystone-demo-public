@@ -1,0 +1,203 @@
+{
+ "bindings": {
+  "mode": "public view",
+  "ok": true,
+  "problems": []
+ },
+ "chains": {
+  "executions.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "lookups.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "operator.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "receipts.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "transcript.jsonl": {
+   "ok": true,
+   "problem": null
+  }
+ },
+ "effects_total": 17,
+ "failures": [],
+ "forbidden": [],
+ "integrity_ok": true,
+ "obligations": {
+  "r00": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 3)",
+   "revocation_issued": true
+  },
+  "r01": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 6)",
+   "revocation_issued": true
+  },
+  "r02": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 9)",
+   "revocation_issued": true
+  },
+  "r03": {
+   "approved": true,
+   "category": "EXECUTED AFTER REVOCATION WAS ISSUED: KEYSTONE STATES IT PASSED THE CONTROL POINT FIRST; NOT INDEPENDENTLY ESTABLISHED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; revocation acknowledged (too_late, Keystone serial 11); result provider_accepted",
+   "revocation_issued": true
+  },
+  "r04": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 15)",
+   "revocation_issued": true
+  },
+  "r05": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 18)",
+   "revocation_issued": true
+  },
+  "r06": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "revocation acknowledged (refused_before_commit, Keystone serial 19); claim refused",
+   "revocation_issued": true
+  },
+  "r07": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 23)",
+   "revocation_issued": true
+  },
+  "r08": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "revocation acknowledged (refused_before_commit, Keystone serial 24); claim refused",
+   "revocation_issued": true
+  },
+  "r09": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 28)",
+   "revocation_issued": true
+  },
+  "r10": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "revocation acknowledged (refused_before_commit, Keystone serial 29); claim refused",
+   "revocation_issued": true
+  },
+  "r11": {
+   "approved": true,
+   "category": "EXECUTED AFTER REVOCATION WAS ISSUED: KEYSTONE STATES IT PASSED THE CONTROL POINT FIRST; NOT INDEPENDENTLY ESTABLISHED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; revocation acknowledged (too_late, Keystone serial 32); dispatched; result provider_accepted",
+   "revocation_issued": true
+  },
+  "r12": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 36)",
+   "revocation_issued": true
+  },
+  "r13": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 39)",
+   "revocation_issued": true
+  },
+  "r14": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 42)",
+   "revocation_issued": true
+  },
+  "r15": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 45)",
+   "revocation_issued": true
+  },
+  "r16": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 48)",
+   "revocation_issued": true
+  },
+  "r17": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 51)",
+   "revocation_issued": true
+  },
+  "r18": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 54)",
+   "revocation_issued": true
+  },
+  "r19": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; revocation acknowledged (too_late, Keystone serial 57)",
+   "revocation_issued": true
+  }
+ },
+ "observed": {
+  "access_attempts": 0,
+  "access_denied_by_os": 0,
+  "access_granted": 0,
+  "attempts": {
+   "agent_a:admit": 20,
+   "agent_a:authorize": 20,
+   "agent_a:present": 20
+  },
+  "credentialed_requests": 17,
+  "effects": 17,
+  "operator_actions": {
+   "approve": 20,
+   "approve_reply": 20,
+   "revoke_issued": 20,
+   "ticket": 20
+  },
+  "uncredentialed_requests_rejected": 0
+ },
+ "recorder": {
+  "boundary_uid": 994,
+  "chain_problem": null,
+  "events_from_other_writers_not_used": 117,
+  "recorder_chain_ok": true,
+  "recorder_lines": 248,
+  "sealed_recorder_sha256": "96a3ad8484b1adb66aa91f323598c300e4fe49b3f6aa492462d58b05d416ab19"
+ },
+ "uncredentialed_requests_rejected": 0
+}

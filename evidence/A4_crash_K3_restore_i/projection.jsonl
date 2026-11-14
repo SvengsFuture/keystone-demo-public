@@ -1,0 +1,3 @@
+{"gseq": 14, "recorder_seq": 9, "ref": "o1:1", "result": "claimed", "source_line_sha": "0408919b8515871f13c96ebd66a51640015f61ed4e9c449a64690aa724482772", "token_id": "tok-6946758d3bb2589c", "type": "claim_result", "writer": "keystone_boundary"}
+{"gseq": 17, "recorder_seq": 12, "source_line_sha": "13d46a5b222bbb9c487006e2ad62084eb96c0e12ded03445dc386af6f159cc03", "type": "fault_injected", "where": "boundary process killed after the claim, before transmission (later point)", "writer": "keystone_boundary"}
+{"gseq": 22, "recorder_seq": 16, "ref": "o1:1", "source_line_sha": "d55a5ccd8bdb4cd641c11fb97f0327b5d6c3288589cc929bd2c9bc7b531a2eee", "type": "held", "writer": "keystone_boundary"}

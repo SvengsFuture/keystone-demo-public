@@ -1,0 +1,2 @@
+{"gseq": 12, "recorder_seq": 7, "ref": "o1:1", "result": "claimed", "source_line_sha": "d6424cb942294916e8cf905b0d01b574b2cbfc2771e4bd57f45e38e6cea39a19", "token_id": "tok-1b29f83ef7e78afa", "type": "claim_result", "writer": "keystone_boundary"}
+{"gseq": 15, "reason": "internal record write failed", "recorder_seq": 10, "ref": "o1:1", "source_line_sha": "1f15e4f84dab8aa3c425342467b0aade2ca40d379567d384af78a300538a91b5", "type": "not_sent", "writer": "keystone_boundary"}

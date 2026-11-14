@@ -1,0 +1,33 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": {
+    "o1": [
+     "NOT EXECUTED: rejected by the destination"
+    ]
+   },
+   "effects": 0
+  },
+  "group": "uncertain",
+  "id": "U4_declined_final",
+  "kind": "correct",
+  "run": "RC2",
+  "title": "Destination declines (final); failure certificate issued"
+ },
+ "error": null,
+ "seconds": 0.4,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 0 accepted effects (expected 0)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 0,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

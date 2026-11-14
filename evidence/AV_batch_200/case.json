@@ -1,0 +1,33 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": {
+    "b": [
+     "EXECUTED ONCE, AUTHORIZED"
+    ]
+   },
+   "categories": null,
+   "effects": 200
+  },
+  "group": "availability",
+  "id": "AV_batch_200",
+  "kind": "correct",
+  "run": "AV_batch",
+  "title": "200 legitimate refunds, two agents, no faults"
+ },
+ "error": null,
+ "seconds": 80.2,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 200 accepted effects (expected 200)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 200,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

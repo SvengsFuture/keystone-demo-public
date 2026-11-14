@@ -1,0 +1,17 @@
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r00", "payment_ref": "pay-r00", "peer_uid": 994, "receipt_n": 1, "ref": "r00:1", "t": 1794683434.0903213, "token_id": "tok-8c999f5a96016c40"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r01", "payment_ref": "pay-r01", "peer_uid": 994, "receipt_n": 2, "ref": "r01:1", "t": 1794683434.7000651, "token_id": "tok-0c2eace916dbc740"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r02", "payment_ref": "pay-r02", "peer_uid": 994, "receipt_n": 3, "ref": "r02:1", "t": 1794683435.3230727, "token_id": "tok-75f698e20ee56f13"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r03", "payment_ref": "pay-r03", "peer_uid": 994, "receipt_n": 4, "ref": "r03:1", "t": 1794683436.08481, "token_id": "tok-1e5a2a25d7b981c4"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r04", "payment_ref": "pay-r04", "peer_uid": 994, "receipt_n": 5, "ref": "r04:1", "t": 1794683436.675072, "token_id": "tok-68d52d872dc4c50e"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r05", "payment_ref": "pay-r05", "peer_uid": 994, "receipt_n": 6, "ref": "r05:1", "t": 1794683437.3849275, "token_id": "tok-87a7887ab4a4737f"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r07", "payment_ref": "pay-r07", "peer_uid": 994, "receipt_n": 7, "ref": "r07:1", "t": 1794683438.7148597, "token_id": "tok-8cfa67d10d03bb0a"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r09", "payment_ref": "pay-r09", "peer_uid": 994, "receipt_n": 8, "ref": "r09:1", "t": 1794683439.9417415, "token_id": "tok-fb3be8905e3bcb5b"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r11", "payment_ref": "pay-r11", "peer_uid": 994, "receipt_n": 9, "ref": "r11:1", "t": 1794683441.1932907, "token_id": "tok-2f75af25e305f40c"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r12", "payment_ref": "pay-r12", "peer_uid": 994, "receipt_n": 10, "ref": "r12:1", "t": 1794683441.758568, "token_id": "tok-71494092d221cbdb"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r13", "payment_ref": "pay-r13", "peer_uid": 994, "receipt_n": 11, "ref": "r13:1", "t": 1794683442.482839, "token_id": "tok-fb3373813fbd65da"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r14", "payment_ref": "pay-r14", "peer_uid": 994, "receipt_n": 12, "ref": "r14:1", "t": 1794683443.3510942, "token_id": "tok-28b8a92f277b38eb"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r15", "payment_ref": "pay-r15", "peer_uid": 994, "receipt_n": 13, "ref": "r15:1", "t": 1794683443.9511771, "token_id": "tok-f423256c2c278f14"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r16", "payment_ref": "pay-r16", "peer_uid": 994, "receipt_n": 14, "ref": "r16:1", "t": 1794683444.5348768, "token_id": "tok-8d6e37141e94d0fa"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r17", "payment_ref": "pay-r17", "peer_uid": 994, "receipt_n": 15, "ref": "r17:1", "t": 1794683445.322887, "token_id": "tok-136d1c3bdf39977f"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r18", "payment_ref": "pay-r18", "peer_uid": 994, "receipt_n": 16, "ref": "r18:1", "t": 1794683446.2523348, "token_id": "tok-3193755125744b54"}
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "r19", "payment_ref": "pay-r19", "peer_uid": 994, "receipt_n": 17, "ref": "r19:1", "t": 1794683447.0004034, "token_id": "tok-8b47da93283f3e92"}

@@ -1,0 +1,29 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 1
+  },
+  "group": "uncertain",
+  "id": "U3_destination_error_after_executing",
+  "kind": "correct",
+  "run": "TS4",
+  "title": "Destination executes, then returns an error"
+ },
+ "error": null,
+ "seconds": 0.4,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 1 accepted effects (expected 1)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 1,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

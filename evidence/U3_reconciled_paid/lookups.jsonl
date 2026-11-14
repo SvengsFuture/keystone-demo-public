@@ -1,0 +1,2 @@
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "o1:1", "t": 1794683538.6999173}
+{"answer": {"status": "settled"}, "cred_ok": true, "path": "/settlement", "peer_uid": 994, "ref": "o1:1", "t": 1794683538.706722}

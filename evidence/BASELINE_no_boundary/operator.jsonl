@@ -1,0 +1,603 @@
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b000", "payment_ref": "pay-b000", "t": 1794683675.2563798}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b000", "payment_ref": "pay-b000", "t": 1794683675.2576706}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b000", "t": 1794683675.2656088}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b001", "payment_ref": "pay-b001", "t": 1794683675.385526}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b001", "payment_ref": "pay-b001", "t": 1794683675.3863637}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b001", "t": 1794683675.393445}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b002", "payment_ref": "pay-b002", "t": 1794683675.5095522}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b002", "payment_ref": "pay-b002", "t": 1794683675.5104213}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b002", "t": 1794683675.518293}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b003", "payment_ref": "pay-b003", "t": 1794683675.637949}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b003", "payment_ref": "pay-b003", "t": 1794683675.638934}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b003", "t": 1794683675.6468277}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b004", "payment_ref": "pay-b004", "t": 1794683675.76322}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b004", "payment_ref": "pay-b004", "t": 1794683675.7641456}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b004", "t": 1794683675.7711122}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b005", "payment_ref": "pay-b005", "t": 1794683675.8969681}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b005", "payment_ref": "pay-b005", "t": 1794683675.8985462}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b005", "t": 1794683675.910074}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b006", "payment_ref": "pay-b006", "t": 1794683676.056718}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b006", "payment_ref": "pay-b006", "t": 1794683676.0576513}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b006", "t": 1794683676.066998}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b007", "payment_ref": "pay-b007", "t": 1794683676.1950135}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b007", "payment_ref": "pay-b007", "t": 1794683676.1960773}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b007", "t": 1794683676.2054121}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b008", "payment_ref": "pay-b008", "t": 1794683676.338284}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b008", "payment_ref": "pay-b008", "t": 1794683676.3407443}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b008", "t": 1794683676.3497808}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b009", "payment_ref": "pay-b009", "t": 1794683676.4752874}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b009", "payment_ref": "pay-b009", "t": 1794683676.4772217}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b009", "t": 1794683676.485427}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b010", "payment_ref": "pay-b010", "t": 1794683676.5968707}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b010", "payment_ref": "pay-b010", "t": 1794683676.5984163}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b010", "t": 1794683676.6069577}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b011", "payment_ref": "pay-b011", "t": 1794683676.7278318}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b011", "payment_ref": "pay-b011", "t": 1794683676.7291243}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b011", "t": 1794683676.7379909}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b012", "payment_ref": "pay-b012", "t": 1794683676.8669755}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b012", "payment_ref": "pay-b012", "t": 1794683676.8679576}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b012", "t": 1794683676.8775947}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b013", "payment_ref": "pay-b013", "t": 1794683676.9967487}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b013", "payment_ref": "pay-b013", "t": 1794683676.9978895}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b013", "t": 1794683677.0067527}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b014", "payment_ref": "pay-b014", "t": 1794683677.1227667}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b014", "payment_ref": "pay-b014", "t": 1794683677.1236162}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b014", "t": 1794683677.132084}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b015", "payment_ref": "pay-b015", "t": 1794683677.2529192}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b015", "payment_ref": "pay-b015", "t": 1794683677.2541583}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b015", "t": 1794683677.2624707}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b016", "payment_ref": "pay-b016", "t": 1794683677.3600614}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b016", "payment_ref": "pay-b016", "t": 1794683677.361547}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b016", "t": 1794683677.3707194}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b017", "payment_ref": "pay-b017", "t": 1794683677.4892566}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b017", "payment_ref": "pay-b017", "t": 1794683677.4899747}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b017", "t": 1794683677.49784}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b018", "payment_ref": "pay-b018", "t": 1794683677.6223876}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b018", "payment_ref": "pay-b018", "t": 1794683677.623415}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b018", "t": 1794683677.63209}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b019", "payment_ref": "pay-b019", "t": 1794683677.7703903}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b019", "payment_ref": "pay-b019", "t": 1794683677.771546}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b019", "t": 1794683677.7793176}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b020", "payment_ref": "pay-b020", "t": 1794683677.9123125}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b020", "payment_ref": "pay-b020", "t": 1794683677.9134612}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b020", "t": 1794683677.923375}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b021", "payment_ref": "pay-b021", "t": 1794683678.0507038}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b021", "payment_ref": "pay-b021", "t": 1794683678.0520606}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b021", "t": 1794683678.0623085}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b022", "payment_ref": "pay-b022", "t": 1794683678.2338512}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b022", "payment_ref": "pay-b022", "t": 1794683678.2351146}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b022", "t": 1794683678.2444897}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b023", "payment_ref": "pay-b023", "t": 1794683678.364004}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b023", "payment_ref": "pay-b023", "t": 1794683678.3649917}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b023", "t": 1794683678.3732448}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b024", "payment_ref": "pay-b024", "t": 1794683678.4901106}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b024", "payment_ref": "pay-b024", "t": 1794683678.4909875}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b024", "t": 1794683678.4988196}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b025", "payment_ref": "pay-b025", "t": 1794683678.6054044}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b025", "payment_ref": "pay-b025", "t": 1794683678.606269}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b025", "t": 1794683678.613625}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b026", "payment_ref": "pay-b026", "t": 1794683678.730093}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b026", "payment_ref": "pay-b026", "t": 1794683678.7314568}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b026", "t": 1794683678.73844}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b027", "payment_ref": "pay-b027", "t": 1794683678.849633}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b027", "payment_ref": "pay-b027", "t": 1794683678.8503034}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b027", "t": 1794683678.857069}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b028", "payment_ref": "pay-b028", "t": 1794683678.9600472}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b028", "payment_ref": "pay-b028", "t": 1794683678.9609544}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b028", "t": 1794683678.9670494}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b029", "payment_ref": "pay-b029", "t": 1794683679.1105156}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b029", "payment_ref": "pay-b029", "t": 1794683679.1115232}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b029", "t": 1794683679.1186607}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b030", "payment_ref": "pay-b030", "t": 1794683679.234738}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b030", "payment_ref": "pay-b030", "t": 1794683679.237468}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b030", "t": 1794683679.246172}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b031", "payment_ref": "pay-b031", "t": 1794683679.404506}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b031", "payment_ref": "pay-b031", "t": 1794683679.4056334}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b031", "t": 1794683679.4144404}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b032", "payment_ref": "pay-b032", "t": 1794683679.5496018}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b032", "payment_ref": "pay-b032", "t": 1794683679.5504487}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b032", "t": 1794683679.5576177}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b033", "payment_ref": "pay-b033", "t": 1794683679.6561606}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b033", "payment_ref": "pay-b033", "t": 1794683679.6568854}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b033", "t": 1794683679.6646938}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b034", "payment_ref": "pay-b034", "t": 1794683679.7834635}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b034", "payment_ref": "pay-b034", "t": 1794683679.7843883}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b034", "t": 1794683679.7928205}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b035", "payment_ref": "pay-b035", "t": 1794683679.8972325}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b035", "payment_ref": "pay-b035", "t": 1794683679.8982098}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b035", "t": 1794683679.9063485}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b036", "payment_ref": "pay-b036", "t": 1794683680.0228436}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b036", "payment_ref": "pay-b036", "t": 1794683680.025101}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b036", "t": 1794683680.0333583}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b037", "payment_ref": "pay-b037", "t": 1794683680.1477027}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b037", "payment_ref": "pay-b037", "t": 1794683680.148317}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b037", "t": 1794683680.1550305}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b038", "payment_ref": "pay-b038", "t": 1794683680.254663}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b038", "payment_ref": "pay-b038", "t": 1794683680.255678}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b038", "t": 1794683680.265654}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b039", "payment_ref": "pay-b039", "t": 1794683680.4126017}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b039", "payment_ref": "pay-b039", "t": 1794683680.4134471}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b039", "t": 1794683680.421559}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b040", "payment_ref": "pay-b040", "t": 1794683680.544643}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b040", "payment_ref": "pay-b040", "t": 1794683680.5455265}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b040", "t": 1794683680.5523098}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b041", "payment_ref": "pay-b041", "t": 1794683680.6699417}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b041", "payment_ref": "pay-b041", "t": 1794683680.671128}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b041", "t": 1794683680.6775298}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b042", "payment_ref": "pay-b042", "t": 1794683680.798061}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b042", "payment_ref": "pay-b042", "t": 1794683680.798971}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b042", "t": 1794683680.8060515}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b043", "payment_ref": "pay-b043", "t": 1794683680.9269116}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b043", "payment_ref": "pay-b043", "t": 1794683680.927826}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b043", "t": 1794683680.9356058}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b044", "payment_ref": "pay-b044", "t": 1794683681.0539706}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b044", "payment_ref": "pay-b044", "t": 1794683681.0550635}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b044", "t": 1794683681.0638065}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b045", "payment_ref": "pay-b045", "t": 1794683681.2156136}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b045", "payment_ref": "pay-b045", "t": 1794683681.2167227}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b045", "t": 1794683681.2245996}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b046", "payment_ref": "pay-b046", "t": 1794683681.372773}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b046", "payment_ref": "pay-b046", "t": 1794683681.3738708}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b046", "t": 1794683681.382974}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b047", "payment_ref": "pay-b047", "t": 1794683681.5499308}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b047", "payment_ref": "pay-b047", "t": 1794683681.5506613}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b047", "t": 1794683681.5585144}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b048", "payment_ref": "pay-b048", "t": 1794683681.6772432}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b048", "payment_ref": "pay-b048", "t": 1794683681.6780963}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b048", "t": 1794683681.6866052}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b049", "payment_ref": "pay-b049", "t": 1794683681.8508902}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b049", "payment_ref": "pay-b049", "t": 1794683681.8517654}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b049", "t": 1794683681.8599584}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b050", "payment_ref": "pay-b050", "t": 1794683681.982533}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b050", "payment_ref": "pay-b050", "t": 1794683681.9833746}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b050", "t": 1794683681.990364}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b051", "payment_ref": "pay-b051", "t": 1794683682.1127093}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b051", "payment_ref": "pay-b051", "t": 1794683682.1136968}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b051", "t": 1794683682.1229885}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b052", "payment_ref": "pay-b052", "t": 1794683682.2350008}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b052", "payment_ref": "pay-b052", "t": 1794683682.2359624}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b052", "t": 1794683682.2465599}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b053", "payment_ref": "pay-b053", "t": 1794683682.3654385}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b053", "payment_ref": "pay-b053", "t": 1794683682.366406}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b053", "t": 1794683682.373401}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b054", "payment_ref": "pay-b054", "t": 1794683682.4982553}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b054", "payment_ref": "pay-b054", "t": 1794683682.4991856}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b054", "t": 1794683682.5066156}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b055", "payment_ref": "pay-b055", "t": 1794683682.6326427}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b055", "payment_ref": "pay-b055", "t": 1794683682.6334782}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b055", "t": 1794683682.6395645}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b056", "payment_ref": "pay-b056", "t": 1794683682.773039}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b056", "payment_ref": "pay-b056", "t": 1794683682.7743692}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b056", "t": 1794683682.783554}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b057", "payment_ref": "pay-b057", "t": 1794683682.9451873}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b057", "payment_ref": "pay-b057", "t": 1794683682.9462945}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b057", "t": 1794683682.9549363}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b058", "payment_ref": "pay-b058", "t": 1794683683.087206}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b058", "payment_ref": "pay-b058", "t": 1794683683.0884373}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b058", "t": 1794683683.0967033}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b059", "payment_ref": "pay-b059", "t": 1794683683.239228}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b059", "payment_ref": "pay-b059", "t": 1794683683.2401707}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b059", "t": 1794683683.2506828}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b060", "payment_ref": "pay-b060", "t": 1794683683.4009573}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b060", "payment_ref": "pay-b060", "t": 1794683683.4023235}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b060", "t": 1794683683.413573}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b061", "payment_ref": "pay-b061", "t": 1794683683.5350168}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b061", "payment_ref": "pay-b061", "t": 1794683683.5366492}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b061", "t": 1794683683.5469828}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b062", "payment_ref": "pay-b062", "t": 1794683683.6773555}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b062", "payment_ref": "pay-b062", "t": 1794683683.6784801}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b062", "t": 1794683683.687192}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b063", "payment_ref": "pay-b063", "t": 1794683683.8318837}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b063", "payment_ref": "pay-b063", "t": 1794683683.8331056}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b063", "t": 1794683683.840034}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b064", "payment_ref": "pay-b064", "t": 1794683683.9443207}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b064", "payment_ref": "pay-b064", "t": 1794683683.9452684}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b064", "t": 1794683683.9526224}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b065", "payment_ref": "pay-b065", "t": 1794683684.1121666}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b065", "payment_ref": "pay-b065", "t": 1794683684.1131282}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b065", "t": 1794683684.1216264}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b066", "payment_ref": "pay-b066", "t": 1794683684.2877994}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b066", "payment_ref": "pay-b066", "t": 1794683684.2888744}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b066", "t": 1794683684.298287}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b067", "payment_ref": "pay-b067", "t": 1794683684.4377716}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b067", "payment_ref": "pay-b067", "t": 1794683684.4387412}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b067", "t": 1794683684.4468179}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b068", "payment_ref": "pay-b068", "t": 1794683684.565409}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b068", "payment_ref": "pay-b068", "t": 1794683684.5666885}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b068", "t": 1794683684.573642}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b069", "payment_ref": "pay-b069", "t": 1794683684.7074103}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b069", "payment_ref": "pay-b069", "t": 1794683684.7082467}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b069", "t": 1794683684.716078}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b070", "payment_ref": "pay-b070", "t": 1794683684.8743715}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b070", "payment_ref": "pay-b070", "t": 1794683684.8755465}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b070", "t": 1794683684.8876336}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b071", "payment_ref": "pay-b071", "t": 1794683685.0112677}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b071", "payment_ref": "pay-b071", "t": 1794683685.0124774}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b071", "t": 1794683685.0198648}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b072", "payment_ref": "pay-b072", "t": 1794683685.13572}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b072", "payment_ref": "pay-b072", "t": 1794683685.1366067}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b072", "t": 1794683685.1446688}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b073", "payment_ref": "pay-b073", "t": 1794683685.2689116}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b073", "payment_ref": "pay-b073", "t": 1794683685.2701616}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b073", "t": 1794683685.278503}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b074", "payment_ref": "pay-b074", "t": 1794683685.399929}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b074", "payment_ref": "pay-b074", "t": 1794683685.401293}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b074", "t": 1794683685.4091008}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b075", "payment_ref": "pay-b075", "t": 1794683685.5261383}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b075", "payment_ref": "pay-b075", "t": 1794683685.5271087}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b075", "t": 1794683685.5346553}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b076", "payment_ref": "pay-b076", "t": 1794683685.6327252}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b076", "payment_ref": "pay-b076", "t": 1794683685.6334648}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b076", "t": 1794683685.640403}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b077", "payment_ref": "pay-b077", "t": 1794683685.7602015}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b077", "payment_ref": "pay-b077", "t": 1794683685.7610579}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b077", "t": 1794683685.768419}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b078", "payment_ref": "pay-b078", "t": 1794683685.886498}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b078", "payment_ref": "pay-b078", "t": 1794683685.8873193}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b078", "t": 1794683685.894325}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b079", "payment_ref": "pay-b079", "t": 1794683686.0265856}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b079", "payment_ref": "pay-b079", "t": 1794683686.0272872}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b079", "t": 1794683686.0347028}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b080", "payment_ref": "pay-b080", "t": 1794683686.158231}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b080", "payment_ref": "pay-b080", "t": 1794683686.1592276}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b080", "t": 1794683686.1669729}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b081", "payment_ref": "pay-b081", "t": 1794683686.293372}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b081", "payment_ref": "pay-b081", "t": 1794683686.294257}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b081", "t": 1794683686.3021097}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b082", "payment_ref": "pay-b082", "t": 1794683686.4255686}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b082", "payment_ref": "pay-b082", "t": 1794683686.4265115}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b082", "t": 1794683686.4342985}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b083", "payment_ref": "pay-b083", "t": 1794683686.557038}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b083", "payment_ref": "pay-b083", "t": 1794683686.5578873}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b083", "t": 1794683686.564536}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b084", "payment_ref": "pay-b084", "t": 1794683686.6857488}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b084", "payment_ref": "pay-b084", "t": 1794683686.6869442}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b084", "t": 1794683686.694577}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b085", "payment_ref": "pay-b085", "t": 1794683686.820941}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b085", "payment_ref": "pay-b085", "t": 1794683686.8217912}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b085", "t": 1794683686.8286407}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b086", "payment_ref": "pay-b086", "t": 1794683686.9359703}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b086", "payment_ref": "pay-b086", "t": 1794683686.9378667}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b086", "t": 1794683686.947368}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b087", "payment_ref": "pay-b087", "t": 1794683687.0671675}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b087", "payment_ref": "pay-b087", "t": 1794683687.06805}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b087", "t": 1794683687.0758672}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b088", "payment_ref": "pay-b088", "t": 1794683687.1999412}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b088", "payment_ref": "pay-b088", "t": 1794683687.2009256}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b088", "t": 1794683687.2084684}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b089", "payment_ref": "pay-b089", "t": 1794683687.3338313}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b089", "payment_ref": "pay-b089", "t": 1794683687.3350172}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b089", "t": 1794683687.3444386}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b090", "payment_ref": "pay-b090", "t": 1794683687.467953}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b090", "payment_ref": "pay-b090", "t": 1794683687.4686687}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b090", "t": 1794683687.4757502}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b091", "payment_ref": "pay-b091", "t": 1794683687.6168423}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b091", "payment_ref": "pay-b091", "t": 1794683687.6176746}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b091", "t": 1794683687.6247532}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b092", "payment_ref": "pay-b092", "t": 1794683687.7509499}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b092", "payment_ref": "pay-b092", "t": 1794683687.752042}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b092", "t": 1794683687.75985}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b093", "payment_ref": "pay-b093", "t": 1794683687.8932657}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b093", "payment_ref": "pay-b093", "t": 1794683687.8944647}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b093", "t": 1794683687.903137}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b094", "payment_ref": "pay-b094", "t": 1794683688.0169888}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b094", "payment_ref": "pay-b094", "t": 1794683688.0181112}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b094", "t": 1794683688.0247211}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b095", "payment_ref": "pay-b095", "t": 1794683688.1490083}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b095", "payment_ref": "pay-b095", "t": 1794683688.1498837}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b095", "t": 1794683688.1582403}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b096", "payment_ref": "pay-b096", "t": 1794683688.2782006}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b096", "payment_ref": "pay-b096", "t": 1794683688.2790947}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b096", "t": 1794683688.28667}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b097", "payment_ref": "pay-b097", "t": 1794683688.4132211}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b097", "payment_ref": "pay-b097", "t": 1794683688.414027}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b097", "t": 1794683688.4200034}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b098", "payment_ref": "pay-b098", "t": 1794683688.556177}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b098", "payment_ref": "pay-b098", "t": 1794683688.5571883}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b098", "t": 1794683688.5670977}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b099", "payment_ref": "pay-b099", "t": 1794683688.6921833}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b099", "payment_ref": "pay-b099", "t": 1794683688.6932755}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b099", "t": 1794683688.7008812}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b100", "payment_ref": "pay-b100", "t": 1794683688.8049266}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b100", "payment_ref": "pay-b100", "t": 1794683688.805724}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b100", "t": 1794683688.8141584}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b101", "payment_ref": "pay-b101", "t": 1794683688.932896}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b101", "payment_ref": "pay-b101", "t": 1794683688.9347665}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b101", "t": 1794683688.9445221}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b102", "payment_ref": "pay-b102", "t": 1794683689.0878878}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b102", "payment_ref": "pay-b102", "t": 1794683689.0888135}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b102", "t": 1794683689.097229}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b103", "payment_ref": "pay-b103", "t": 1794683689.2139275}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b103", "payment_ref": "pay-b103", "t": 1794683689.2148304}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b103", "t": 1794683689.2222059}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b104", "payment_ref": "pay-b104", "t": 1794683689.3250656}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b104", "payment_ref": "pay-b104", "t": 1794683689.3262086}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b104", "t": 1794683689.3336248}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b105", "payment_ref": "pay-b105", "t": 1794683689.4679248}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b105", "payment_ref": "pay-b105", "t": 1794683689.468907}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b105", "t": 1794683689.4768834}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b106", "payment_ref": "pay-b106", "t": 1794683689.6035223}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b106", "payment_ref": "pay-b106", "t": 1794683689.6044898}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b106", "t": 1794683689.611504}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b107", "payment_ref": "pay-b107", "t": 1794683689.7336862}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b107", "payment_ref": "pay-b107", "t": 1794683689.734417}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b107", "t": 1794683689.74373}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b108", "payment_ref": "pay-b108", "t": 1794683689.8466246}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b108", "payment_ref": "pay-b108", "t": 1794683689.847549}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b108", "t": 1794683689.8550417}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b109", "payment_ref": "pay-b109", "t": 1794683689.981388}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b109", "payment_ref": "pay-b109", "t": 1794683689.9822843}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b109", "t": 1794683689.9890423}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b110", "payment_ref": "pay-b110", "t": 1794683690.1294641}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b110", "payment_ref": "pay-b110", "t": 1794683690.1304958}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b110", "t": 1794683690.139572}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b111", "payment_ref": "pay-b111", "t": 1794683690.2712226}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b111", "payment_ref": "pay-b111", "t": 1794683690.2726731}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b111", "t": 1794683690.2812347}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b112", "payment_ref": "pay-b112", "t": 1794683690.4228542}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b112", "payment_ref": "pay-b112", "t": 1794683690.4239635}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b112", "t": 1794683690.4325871}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b113", "payment_ref": "pay-b113", "t": 1794683690.574316}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b113", "payment_ref": "pay-b113", "t": 1794683690.5751617}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b113", "t": 1794683690.582859}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b114", "payment_ref": "pay-b114", "t": 1794683690.706193}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b114", "payment_ref": "pay-b114", "t": 1794683690.7070785}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b114", "t": 1794683690.7148244}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b115", "payment_ref": "pay-b115", "t": 1794683690.831556}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b115", "payment_ref": "pay-b115", "t": 1794683690.8337677}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b115", "t": 1794683690.8436303}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b116", "payment_ref": "pay-b116", "t": 1794683690.9770432}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b116", "payment_ref": "pay-b116", "t": 1794683690.9779942}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b116", "t": 1794683690.9859223}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b117", "payment_ref": "pay-b117", "t": 1794683691.1163082}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b117", "payment_ref": "pay-b117", "t": 1794683691.1171393}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b117", "t": 1794683691.124751}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b118", "payment_ref": "pay-b118", "t": 1794683691.2445638}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b118", "payment_ref": "pay-b118", "t": 1794683691.2455735}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b118", "t": 1794683691.254271}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b119", "payment_ref": "pay-b119", "t": 1794683691.411256}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b119", "payment_ref": "pay-b119", "t": 1794683691.4128366}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b119", "t": 1794683691.4215915}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b120", "payment_ref": "pay-b120", "t": 1794683691.579307}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b120", "payment_ref": "pay-b120", "t": 1794683691.5806348}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b120", "t": 1794683691.5893025}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b121", "payment_ref": "pay-b121", "t": 1794683691.7078366}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b121", "payment_ref": "pay-b121", "t": 1794683691.7087665}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b121", "t": 1794683691.7171726}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b122", "payment_ref": "pay-b122", "t": 1794683691.8220851}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b122", "payment_ref": "pay-b122", "t": 1794683691.8231223}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b122", "t": 1794683691.8300722}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b123", "payment_ref": "pay-b123", "t": 1794683691.9414022}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b123", "payment_ref": "pay-b123", "t": 1794683691.9423645}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b123", "t": 1794683691.9509284}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b124", "payment_ref": "pay-b124", "t": 1794683692.0690706}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b124", "payment_ref": "pay-b124", "t": 1794683692.0705867}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b124", "t": 1794683692.0794508}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b125", "payment_ref": "pay-b125", "t": 1794683692.2026455}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b125", "payment_ref": "pay-b125", "t": 1794683692.2035654}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b125", "t": 1794683692.2103908}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b126", "payment_ref": "pay-b126", "t": 1794683692.3175726}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b126", "payment_ref": "pay-b126", "t": 1794683692.3186731}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b126", "t": 1794683692.3269768}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b127", "payment_ref": "pay-b127", "t": 1794683692.4305472}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b127", "payment_ref": "pay-b127", "t": 1794683692.431431}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b127", "t": 1794683692.4392514}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b128", "payment_ref": "pay-b128", "t": 1794683692.5792117}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b128", "payment_ref": "pay-b128", "t": 1794683692.5801861}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b128", "t": 1794683692.588702}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b129", "payment_ref": "pay-b129", "t": 1794683692.7018113}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b129", "payment_ref": "pay-b129", "t": 1794683692.7030845}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b129", "t": 1794683692.7101166}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b130", "payment_ref": "pay-b130", "t": 1794683692.8180575}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b130", "payment_ref": "pay-b130", "t": 1794683692.8190222}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b130", "t": 1794683692.8261113}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b131", "payment_ref": "pay-b131", "t": 1794683692.928646}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b131", "payment_ref": "pay-b131", "t": 1794683692.9298842}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b131", "t": 1794683692.938418}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b132", "payment_ref": "pay-b132", "t": 1794683693.06532}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b132", "payment_ref": "pay-b132", "t": 1794683693.0663793}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b132", "t": 1794683693.0746284}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b133", "payment_ref": "pay-b133", "t": 1794683693.193108}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b133", "payment_ref": "pay-b133", "t": 1794683693.193852}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b133", "t": 1794683693.1997359}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b134", "payment_ref": "pay-b134", "t": 1794683693.3484054}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b134", "payment_ref": "pay-b134", "t": 1794683693.350427}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b134", "t": 1794683693.3615057}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b135", "payment_ref": "pay-b135", "t": 1794683693.507617}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b135", "payment_ref": "pay-b135", "t": 1794683693.508532}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b135", "t": 1794683693.516119}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b136", "payment_ref": "pay-b136", "t": 1794683693.635946}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b136", "payment_ref": "pay-b136", "t": 1794683693.637625}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b136", "t": 1794683693.647834}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b137", "payment_ref": "pay-b137", "t": 1794683693.747544}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b137", "payment_ref": "pay-b137", "t": 1794683693.7484634}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b137", "t": 1794683693.7558901}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b138", "payment_ref": "pay-b138", "t": 1794683693.8544147}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b138", "payment_ref": "pay-b138", "t": 1794683693.8559554}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b138", "t": 1794683693.8635736}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b139", "payment_ref": "pay-b139", "t": 1794683694.0115745}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b139", "payment_ref": "pay-b139", "t": 1794683694.0132394}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b139", "t": 1794683694.0237353}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b140", "payment_ref": "pay-b140", "t": 1794683694.1254556}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b140", "payment_ref": "pay-b140", "t": 1794683694.1270525}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b140", "t": 1794683694.1364446}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b141", "payment_ref": "pay-b141", "t": 1794683694.2714074}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b141", "payment_ref": "pay-b141", "t": 1794683694.272716}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b141", "t": 1794683694.282064}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b142", "payment_ref": "pay-b142", "t": 1794683694.4648526}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b142", "payment_ref": "pay-b142", "t": 1794683694.4662228}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b142", "t": 1794683694.4766417}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b143", "payment_ref": "pay-b143", "t": 1794683694.6037102}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b143", "payment_ref": "pay-b143", "t": 1794683694.6047456}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b143", "t": 1794683694.6138005}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b144", "payment_ref": "pay-b144", "t": 1794683694.7464013}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b144", "payment_ref": "pay-b144", "t": 1794683694.7471902}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b144", "t": 1794683694.7548435}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b145", "payment_ref": "pay-b145", "t": 1794683694.8740547}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b145", "payment_ref": "pay-b145", "t": 1794683694.8749468}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b145", "t": 1794683694.8834174}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b146", "payment_ref": "pay-b146", "t": 1794683695.0026648}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b146", "payment_ref": "pay-b146", "t": 1794683695.0037916}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b146", "t": 1794683695.0111222}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b147", "payment_ref": "pay-b147", "t": 1794683695.1388683}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b147", "payment_ref": "pay-b147", "t": 1794683695.1399968}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b147", "t": 1794683695.152123}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b148", "payment_ref": "pay-b148", "t": 1794683695.2909012}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b148", "payment_ref": "pay-b148", "t": 1794683695.2917619}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b148", "t": 1794683695.3011773}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b149", "payment_ref": "pay-b149", "t": 1794683695.4541419}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b149", "payment_ref": "pay-b149", "t": 1794683695.4558623}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b149", "t": 1794683695.4653723}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b150", "payment_ref": "pay-b150", "t": 1794683695.6123197}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b150", "payment_ref": "pay-b150", "t": 1794683695.6131763}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b150", "t": 1794683695.6214213}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b151", "payment_ref": "pay-b151", "t": 1794683695.7620366}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b151", "payment_ref": "pay-b151", "t": 1794683695.7630303}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b151", "t": 1794683695.7716577}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b152", "payment_ref": "pay-b152", "t": 1794683695.8955376}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b152", "payment_ref": "pay-b152", "t": 1794683695.896519}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b152", "t": 1794683695.9050465}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b153", "payment_ref": "pay-b153", "t": 1794683696.016182}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b153", "payment_ref": "pay-b153", "t": 1794683696.017372}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b153", "t": 1794683696.0350614}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b154", "payment_ref": "pay-b154", "t": 1794683696.1651275}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b154", "payment_ref": "pay-b154", "t": 1794683696.166384}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b154", "t": 1794683696.174999}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b155", "payment_ref": "pay-b155", "t": 1794683696.3094413}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b155", "payment_ref": "pay-b155", "t": 1794683696.3107045}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b155", "t": 1794683696.3187768}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b156", "payment_ref": "pay-b156", "t": 1794683696.461113}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b156", "payment_ref": "pay-b156", "t": 1794683696.4630272}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b156", "t": 1794683696.4756064}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b157", "payment_ref": "pay-b157", "t": 1794683696.615627}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b157", "payment_ref": "pay-b157", "t": 1794683696.6167967}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b157", "t": 1794683696.626168}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b158", "payment_ref": "pay-b158", "t": 1794683696.7922301}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b158", "payment_ref": "pay-b158", "t": 1794683696.7940133}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b158", "t": 1794683696.8018384}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b159", "payment_ref": "pay-b159", "t": 1794683696.92601}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b159", "payment_ref": "pay-b159", "t": 1794683696.9272738}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b159", "t": 1794683696.9352076}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b160", "payment_ref": "pay-b160", "t": 1794683697.0402453}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b160", "payment_ref": "pay-b160", "t": 1794683697.041391}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b160", "t": 1794683697.0510075}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b161", "payment_ref": "pay-b161", "t": 1794683697.1634462}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b161", "payment_ref": "pay-b161", "t": 1794683697.1649241}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b161", "t": 1794683697.1752877}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b162", "payment_ref": "pay-b162", "t": 1794683697.3096669}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b162", "payment_ref": "pay-b162", "t": 1794683697.3103864}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b162", "t": 1794683697.319933}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b163", "payment_ref": "pay-b163", "t": 1794683697.4735703}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b163", "payment_ref": "pay-b163", "t": 1794683697.4749317}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b163", "t": 1794683697.4831147}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b164", "payment_ref": "pay-b164", "t": 1794683697.6141162}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b164", "payment_ref": "pay-b164", "t": 1794683697.6154342}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b164", "t": 1794683697.6249135}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b165", "payment_ref": "pay-b165", "t": 1794683697.7521162}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b165", "payment_ref": "pay-b165", "t": 1794683697.7529666}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b165", "t": 1794683697.7600732}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b166", "payment_ref": "pay-b166", "t": 1794683697.8769765}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b166", "payment_ref": "pay-b166", "t": 1794683697.8779433}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b166", "t": 1794683697.886574}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b167", "payment_ref": "pay-b167", "t": 1794683698.017545}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b167", "payment_ref": "pay-b167", "t": 1794683698.0188265}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b167", "t": 1794683698.0265408}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b168", "payment_ref": "pay-b168", "t": 1794683698.1467237}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b168", "payment_ref": "pay-b168", "t": 1794683698.1478717}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b168", "t": 1794683698.1565838}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b169", "payment_ref": "pay-b169", "t": 1794683698.2969344}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b169", "payment_ref": "pay-b169", "t": 1794683698.2979114}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b169", "t": 1794683698.3058677}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b170", "payment_ref": "pay-b170", "t": 1794683698.4431438}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b170", "payment_ref": "pay-b170", "t": 1794683698.444939}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b170", "t": 1794683698.4560819}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b171", "payment_ref": "pay-b171", "t": 1794683698.6040492}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b171", "payment_ref": "pay-b171", "t": 1794683698.6050591}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b171", "t": 1794683698.614673}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b172", "payment_ref": "pay-b172", "t": 1794683698.7580414}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b172", "payment_ref": "pay-b172", "t": 1794683698.759406}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b172", "t": 1794683698.7678049}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b173", "payment_ref": "pay-b173", "t": 1794683698.8986435}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b173", "payment_ref": "pay-b173", "t": 1794683698.9002347}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b173", "t": 1794683698.9138055}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b174", "payment_ref": "pay-b174", "t": 1794683699.0247447}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b174", "payment_ref": "pay-b174", "t": 1794683699.0268972}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b174", "t": 1794683699.0359032}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b175", "payment_ref": "pay-b175", "t": 1794683699.1688194}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b175", "payment_ref": "pay-b175", "t": 1794683699.1696367}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b175", "t": 1794683699.177962}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b176", "payment_ref": "pay-b176", "t": 1794683699.324971}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b176", "payment_ref": "pay-b176", "t": 1794683699.326018}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b176", "t": 1794683699.336071}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b177", "payment_ref": "pay-b177", "t": 1794683699.449203}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b177", "payment_ref": "pay-b177", "t": 1794683699.4498506}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b177", "t": 1794683699.4571714}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b178", "payment_ref": "pay-b178", "t": 1794683699.5666406}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b178", "payment_ref": "pay-b178", "t": 1794683699.5681942}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b178", "t": 1794683699.5773745}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b179", "payment_ref": "pay-b179", "t": 1794683699.7035189}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b179", "payment_ref": "pay-b179", "t": 1794683699.7045958}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b179", "t": 1794683699.712114}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b180", "payment_ref": "pay-b180", "t": 1794683699.8718228}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b180", "payment_ref": "pay-b180", "t": 1794683699.8738897}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b180", "t": 1794683699.8820837}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b181", "payment_ref": "pay-b181", "t": 1794683700.0476682}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b181", "payment_ref": "pay-b181", "t": 1794683700.0487378}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b181", "t": 1794683700.057702}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b182", "payment_ref": "pay-b182", "t": 1794683700.1842365}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b182", "payment_ref": "pay-b182", "t": 1794683700.1854408}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b182", "t": 1794683700.1936824}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b183", "payment_ref": "pay-b183", "t": 1794683700.340141}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b183", "payment_ref": "pay-b183", "t": 1794683700.3414059}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b183", "t": 1794683700.3502994}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b184", "payment_ref": "pay-b184", "t": 1794683700.489085}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b184", "payment_ref": "pay-b184", "t": 1794683700.4899695}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b184", "t": 1794683700.4994452}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b185", "payment_ref": "pay-b185", "t": 1794683700.6435435}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b185", "payment_ref": "pay-b185", "t": 1794683700.645601}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b185", "t": 1794683700.6543186}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b186", "payment_ref": "pay-b186", "t": 1794683700.7910194}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b186", "payment_ref": "pay-b186", "t": 1794683700.792874}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b186", "t": 1794683700.8018289}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b187", "payment_ref": "pay-b187", "t": 1794683700.917033}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b187", "payment_ref": "pay-b187", "t": 1794683700.9180095}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b187", "t": 1794683700.9266672}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b188", "payment_ref": "pay-b188", "t": 1794683701.0490978}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b188", "payment_ref": "pay-b188", "t": 1794683701.050219}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b188", "t": 1794683701.0588095}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b189", "payment_ref": "pay-b189", "t": 1794683701.183091}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b189", "payment_ref": "pay-b189", "t": 1794683701.1856341}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b189", "t": 1794683701.19396}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b190", "payment_ref": "pay-b190", "t": 1794683701.3152692}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b190", "payment_ref": "pay-b190", "t": 1794683701.3163977}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b190", "t": 1794683701.3258991}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b191", "payment_ref": "pay-b191", "t": 1794683701.4469948}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b191", "payment_ref": "pay-b191", "t": 1794683701.448188}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b191", "t": 1794683701.4554071}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b192", "payment_ref": "pay-b192", "t": 1794683701.5818853}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b192", "payment_ref": "pay-b192", "t": 1794683701.5831044}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b192", "t": 1794683701.5910847}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b193", "payment_ref": "pay-b193", "t": 1794683701.7226002}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b193", "payment_ref": "pay-b193", "t": 1794683701.7236037}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b193", "t": 1794683701.7328558}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b194", "payment_ref": "pay-b194", "t": 1794683701.8384}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b194", "payment_ref": "pay-b194", "t": 1794683701.8392954}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b194", "t": 1794683701.846839}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b195", "payment_ref": "pay-b195", "t": 1794683701.9729414}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b195", "payment_ref": "pay-b195", "t": 1794683701.9743004}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b195", "t": 1794683701.9827137}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b196", "payment_ref": "pay-b196", "t": 1794683702.1293945}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b196", "payment_ref": "pay-b196", "t": 1794683702.1303236}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b196", "t": 1794683702.1390817}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b197", "payment_ref": "pay-b197", "t": 1794683702.2804344}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b197", "payment_ref": "pay-b197", "t": 1794683702.2820084}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b197", "t": 1794683702.2915113}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b198", "payment_ref": "pay-b198", "t": 1794683702.4107778}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "b198", "payment_ref": "pay-b198", "t": 1794683702.4118564}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b198", "t": 1794683702.4206345}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b199", "payment_ref": "pay-b199", "t": 1794683702.5612626}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_b", "obligation": "b199", "payment_ref": "pay-b199", "t": 1794683702.5622253}
+{"action": "approve_reply", "keystone_says": true, "obligation": "b199", "t": 1794683702.5696743}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "x1", "payment_ref": "pay-x1", "t": 1794683702.6982193}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "x1", "payment_ref": "pay-x1", "t": 1794683702.6990366}
+{"action": "approve_reply", "keystone_says": true, "obligation": "x1", "t": 1794683702.712621}

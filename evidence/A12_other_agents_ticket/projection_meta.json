@@ -1,0 +1,8 @@
+{
+ "recorder_chain_ok": true,
+ "recorder_lines": 4,
+ "chain_problem": null,
+ "boundary_uid": 994,
+ "events_from_other_writers_not_used": 4,
+ "sealed_recorder_sha256": "d33c4d8cc5632044f1a25f2a02232a19e4c642030af5eb5a2f2056c4d935dcbe"
+}

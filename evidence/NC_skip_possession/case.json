@@ -1,0 +1,31 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 1
+  },
+  "group": "control",
+  "id": "NC_skip_possession",
+  "kind": "control",
+  "run": "NK2",
+  "title": "Weakened: skip proof of possession"
+ },
+ "error": null,
+ "seconds": 0.4,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 1 accepted effects (expected 1)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 1,
+  "failures": [],
+  "forbidden": [
+   "o1"
+  ],
+  "status": "CONTROL BIT"
+ }
+}

@@ -1,0 +1,6 @@
+{"gseq": 14, "recorder_seq": 9, "ref": "o1:1", "result": "claimed", "source_line_sha": "03523b7e5965bf6844e28a4abce365878a098f6ae1a9b8ad2dadcc9869d9f8b6", "token_id": "tok-050e4a32e73871ac", "type": "claim_result", "writer": "keystone_boundary"}
+{"gseq": 17, "recorder_seq": 12, "source_line_sha": "4a1fcf07f1afcf8699c1bfa71d50e91dc95ddd0e0b8ade6e731b16939e7854ad", "type": "fault_injected", "where": "boundary process killed after the claim, before transmission (later point)", "writer": "keystone_boundary"}
+{"gseq": 21, "recorder_seq": 15, "ref": "o1:1", "source_line_sha": "855b998b769dd5e4f5385e892dbab05661c8b64cef687f815f29a24446a640ce", "type": "held", "writer": "keystone_boundary"}
+{"gseq": 24, "recorder_seq": 16, "ref": "o1:1", "source_line_sha": "54b9af2ae1f1bf787ff31e17b2b2c422129a45a4329f2b0f53998d4f2d1d0daf", "state": "SENDING", "type": "reconciled", "writer": "keystone_boundary"}
+{"gseq": 26, "recorder_seq": 17, "ref": "o1:1", "source_line_sha": "833e7cf3ecc71af62a649bff08f9e70c9fe343bed79bb33db4becfe973f3a27a", "state": "SENDING", "type": "reconciled", "writer": "keystone_boundary"}
+{"gseq": 28, "recorder_seq": 18, "ref": "o1:1", "source_line_sha": "c65dd729b42888b9c9498397e893d1fe9e377a849c96fe97e0783b427803e6e2", "state": "ESCALATED", "type": "reconciled", "writer": "keystone_boundary"}

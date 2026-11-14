@@ -1,0 +1,2 @@
+{"gseq": 12, "keystone_serial": 1, "outcome": "refused_before_commit", "recorder_seq": 6, "source_line_sha": "6b4a6f04901b2369f662856d91280bec4794ac0599ad811990bfbaed81a27f99", "token_id": "tok-fdb765cc7f9824e6", "type": "revocation_acknowledged", "writer": "keystone_operator_adapter"}
+{"gseq": 15, "recorder_seq": 9, "ref": "o1:1", "result": "refused", "source_line_sha": "288cf33f2a271acf38412a0f6067c52ec53ee66add89d506fe7a1ab918782339", "token_id": "tok-fdb765cc7f9824e6", "type": "claim_result", "writer": "keystone_boundary"}

@@ -1,0 +1,39 @@
+{
+ "case": {
+  "evidence": [
+   {
+    "action": "revoke_issued",
+    "type": "operator"
+   }
+  ],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": {
+    "o1": [
+     "EXECUTED AFTER REVOCATION WAS ISSUED"
+    ]
+   },
+   "effects": 1
+  },
+  "group": "revocation",
+  "id": "C1_revocation_after_control_point",
+  "kind": "correct",
+  "run": "C1_revocation_after_control_point",
+  "title": "Revocation issued after the refund passed the control point"
+ },
+ "error": null,
+ "seconds": 1.4,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 1 accepted effects (expected 1)",
+   "satisfied: operator record: 1 'revoke_issued' (required 1)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 1,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

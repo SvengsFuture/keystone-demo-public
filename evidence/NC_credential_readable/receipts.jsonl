@@ -1,0 +1,1 @@
+{"body": {"amount": 100, "customer": "C1", "obligation": "o1", "payment_ref": "pay-o1", "ticket_id": "tk-o1", "token_id": "stolen"}, "cred_ok": true, "disposition": "normal", "n": 1, "path": "/refund", "peer_pid": 19661, "peer_uid": 991, "ref": "", "t": 1794683567.5464787, "token_id": "stolen"}

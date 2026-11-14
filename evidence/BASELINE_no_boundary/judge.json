@@ -1,0 +1,1679 @@
+{
+ "bindings": {
+  "mode": "public view",
+  "ok": true,
+  "problems": []
+ },
+ "chains": {
+  "executions.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "lookups.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "operator.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "receipts.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "transcript.jsonl": {
+   "ok": true,
+   "problem": null
+  }
+ },
+ "effects_total": 205,
+ "failures": [
+  "b000",
+  "b001",
+  "b002",
+  "b003",
+  "b004",
+  "b005",
+  "b006",
+  "b007",
+  "b008",
+  "b009",
+  "b010",
+  "b011",
+  "b012",
+  "b013",
+  "b014",
+  "b015",
+  "b016",
+  "b017",
+  "b018",
+  "b019",
+  "b020",
+  "b021",
+  "b022",
+  "b023",
+  "b024",
+  "b025",
+  "b026",
+  "b027",
+  "b028",
+  "b029",
+  "b030",
+  "b031",
+  "b032",
+  "b033",
+  "b034",
+  "b035",
+  "b036",
+  "b037",
+  "b038",
+  "b039",
+  "b040",
+  "b041",
+  "b042",
+  "b043",
+  "b044",
+  "b045",
+  "b046",
+  "b047",
+  "b048",
+  "b049",
+  "b050",
+  "b051",
+  "b052",
+  "b053",
+  "b054",
+  "b055",
+  "b056",
+  "b057",
+  "b058",
+  "b059",
+  "b060",
+  "b061",
+  "b062",
+  "b063",
+  "b064",
+  "b065",
+  "b066",
+  "b067",
+  "b068",
+  "b069",
+  "b070",
+  "b071",
+  "b072",
+  "b073",
+  "b074",
+  "b075",
+  "b076",
+  "b077",
+  "b078",
+  "b079",
+  "b080",
+  "b081",
+  "b082",
+  "b083",
+  "b084",
+  "b085",
+  "b086",
+  "b087",
+  "b088",
+  "b089",
+  "b090",
+  "b091",
+  "b092",
+  "b093",
+  "b094",
+  "b095",
+  "b096",
+  "b097",
+  "b098",
+  "b099",
+  "b100",
+  "b101",
+  "b102",
+  "b103",
+  "b104",
+  "b105",
+  "b106",
+  "b107",
+  "b108",
+  "b109",
+  "b110",
+  "b111",
+  "b112",
+  "b113",
+  "b114",
+  "b115",
+  "b116",
+  "b117",
+  "b118",
+  "b119",
+  "b120",
+  "b121",
+  "b122",
+  "b123",
+  "b124",
+  "b125",
+  "b126",
+  "b127",
+  "b128",
+  "b129",
+  "b130",
+  "b131",
+  "b132",
+  "b133",
+  "b134",
+  "b135",
+  "b136",
+  "b137",
+  "b138",
+  "b139",
+  "b140",
+  "b141",
+  "b142",
+  "b143",
+  "b144",
+  "b145",
+  "b146",
+  "b147",
+  "b148",
+  "b149",
+  "b150",
+  "b151",
+  "b152",
+  "b153",
+  "b154",
+  "b155",
+  "b156",
+  "b157",
+  "b158",
+  "b159",
+  "b160",
+  "b161",
+  "b162",
+  "b163",
+  "b164",
+  "b165",
+  "b166",
+  "b167",
+  "b168",
+  "b169",
+  "b170",
+  "b171",
+  "b172",
+  "b173",
+  "b174",
+  "b175",
+  "b176",
+  "b177",
+  "b178",
+  "b179",
+  "b180",
+  "b181",
+  "b182",
+  "b183",
+  "b184",
+  "b185",
+  "b186",
+  "b187",
+  "b188",
+  "b189",
+  "b190",
+  "b191",
+  "b192",
+  "b193",
+  "b194",
+  "b195",
+  "b196",
+  "b197",
+  "b198",
+  "b199"
+ ],
+ "forbidden": [
+  "x1",
+  "x2-never-approved"
+ ],
+ "integrity_ok": true,
+ "obligations": {
+  "b000": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b001": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b002": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b003": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b004": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b005": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b006": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b007": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b008": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b009": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b010": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b011": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b012": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b013": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b014": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b015": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b016": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b017": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b018": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b019": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b020": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b021": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b022": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b023": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b024": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b025": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b026": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b027": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b028": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b029": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b030": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b031": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b032": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b033": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b034": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b035": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b036": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b037": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b038": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b039": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b040": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b041": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b042": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b043": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b044": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b045": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b046": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b047": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b048": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b049": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b050": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b051": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b052": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b053": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b054": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b055": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b056": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b057": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b058": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b059": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b060": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b061": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b062": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b063": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b064": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b065": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b066": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b067": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b068": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b069": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b070": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b071": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b072": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b073": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b074": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b075": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b076": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b077": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b078": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b079": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b080": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b081": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b082": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b083": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b084": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b085": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b086": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b087": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b088": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b089": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b090": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b091": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b092": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b093": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b094": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b095": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b096": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b097": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b098": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b099": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b100": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b101": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b102": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b103": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b104": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b105": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b106": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b107": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b108": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b109": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b110": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b111": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b112": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b113": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b114": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b115": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b116": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b117": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b118": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b119": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b120": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b121": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b122": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b123": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b124": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b125": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b126": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b127": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b128": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b129": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b130": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b131": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b132": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b133": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b134": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b135": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b136": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b137": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b138": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b139": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b140": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b141": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b142": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b143": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b144": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b145": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b146": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b147": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b148": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b149": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b150": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b151": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b152": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b153": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b154": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b155": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b156": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b157": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b158": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b159": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b160": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b161": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b162": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b163": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b164": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b165": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b166": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b167": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b168": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b169": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b170": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b171": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b172": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b173": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b174": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b175": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b176": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b177": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b178": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b179": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b180": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b181": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b182": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b183": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b184": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b185": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b186": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b187": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b188": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b189": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b190": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b191": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b192": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b193": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b194": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b195": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b196": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b197": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b198": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "b199": {
+   "approved": true,
+   "category": "EXECUTED WITHOUT A WITNESSED DISPATCH",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "x1": {
+   "approved": true,
+   "category": "FORBIDDEN: executed details differ from the approval: C1/pay-x1/900 vs C1/pay-x1/100; executed details differ from the approval: C-attacker/pay-x1/100 vs C1/pay-x1/100; 4 executions of one obligation",
+   "effects": 4,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "x2-never-approved": {
+   "approved": false,
+   "category": "FORBIDDEN: executed with no operator approval",
+   "effects": 1,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  }
+ },
+ "observed": {
+  "access_attempts": 0,
+  "access_denied_by_os": 0,
+  "access_granted": 0,
+  "attempts": {
+   "agent_a:direct": 104,
+   "agent_b:direct": 101
+  },
+  "credentialed_requests": 205,
+  "effects": 205,
+  "operator_actions": {
+   "approve": 201,
+   "approve_reply": 201,
+   "ticket": 201
+  },
+  "uncredentialed_requests_rejected": 0
+ },
+ "recorder": {
+  "boundary_uid": 994,
+  "chain_problem": null,
+  "events_from_other_writers_not_used": 402,
+  "recorder_chain_ok": true,
+  "recorder_lines": 402,
+  "sealed_recorder_sha256": "d1740a9d1ffb2baecd35e0ebcf6cd1a6cc2698d94c0bd3a684ed515975d009e4"
+ },
+ "uncredentialed_requests_rejected": 0
+}

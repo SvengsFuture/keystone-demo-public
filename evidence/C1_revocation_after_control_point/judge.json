@@ -1,0 +1,70 @@
+{
+ "bindings": {
+  "mode": "public view",
+  "ok": true,
+  "problems": []
+ },
+ "chains": {
+  "executions.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "lookups.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "operator.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "receipts.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "transcript.jsonl": {
+   "ok": true,
+   "problem": null
+  }
+ },
+ "effects_total": 1,
+ "failures": [],
+ "forbidden": [],
+ "integrity_ok": true,
+ "obligations": {
+  "o1": {
+   "approved": true,
+   "category": "EXECUTED AFTER REVOCATION WAS ISSUED: KEYSTONE STATES IT PASSED THE CONTROL POINT FIRST; NOT INDEPENDENTLY ESTABLISHED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; revocation acknowledged (too_late, Keystone serial 2); result provider_accepted",
+   "revocation_issued": true
+  }
+ },
+ "observed": {
+  "access_attempts": 0,
+  "access_denied_by_os": 0,
+  "access_granted": 0,
+  "attempts": {
+   "agent_a:admit": 1,
+   "agent_a:authorize": 1,
+   "agent_a:present": 1
+  },
+  "credentialed_requests": 1,
+  "effects": 1,
+  "operator_actions": {
+   "approve": 1,
+   "approve_reply": 1,
+   "revoke_issued": 1,
+   "ticket": 1
+  },
+  "uncredentialed_requests_rejected": 0
+ },
+ "recorder": {
+  "boundary_uid": 994,
+  "chain_problem": null,
+  "events_from_other_writers_not_used": 6,
+  "recorder_chain_ok": true,
+  "recorder_lines": 13,
+  "sealed_recorder_sha256": "923eabe891e367471765621a8747f931b817ec75427ba273a5ce876c0aff988e"
+ },
+ "uncredentialed_requests_rejected": 0
+}

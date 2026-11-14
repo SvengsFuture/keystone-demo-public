@@ -1,0 +1,29 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 1
+  },
+  "group": "crash/restore",
+  "id": "A4_crash_K3_restore_both",
+  "kind": "correct",
+  "run": "MK3_both",
+  "title": "Crash at K3, both stores restored (nothing had been sent)"
+ },
+ "error": null,
+ "seconds": 1.0,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 1 accepted effects (expected 1)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 1,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

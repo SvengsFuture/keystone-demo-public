@@ -1,0 +1,69 @@
+{
+ "bindings": {
+  "mode": "public view",
+  "ok": true,
+  "problems": []
+ },
+ "chains": {
+  "executions.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "lookups.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "operator.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "receipts.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "transcript.jsonl": {
+   "ok": true,
+   "problem": null
+  }
+ },
+ "effects_total": 0,
+ "failures": [],
+ "forbidden": [],
+ "integrity_ok": true,
+ "obligations": {
+  "o1": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "claim claimed; claim used; reconciled -> SENDING; reconciled -> SENDING; reconciled -> ESCALATED",
+   "revocation_issued": false
+  }
+ },
+ "observed": {
+  "access_attempts": 0,
+  "access_denied_by_os": 0,
+  "access_granted": 0,
+  "attempts": {
+   "agent_a:admit": 1,
+   "agent_a:authorize": 1,
+   "agent_a:present": 2
+  },
+  "credentialed_requests": 0,
+  "effects": 0,
+  "operator_actions": {
+   "approve": 1,
+   "approve_reply": 1,
+   "ticket": 1
+  },
+  "uncredentialed_requests_rejected": 0
+ },
+ "recorder": {
+  "boundary_uid": 994,
+  "chain_problem": null,
+  "events_from_other_writers_not_used": 4,
+  "recorder_chain_ok": true,
+  "recorder_lines": 16,
+  "sealed_recorder_sha256": "5544fc458aa994d23f3f836057854c798aaa6e307e403c70618a68876d43677b"
+ },
+ "uncredentialed_requests_rejected": 0
+}

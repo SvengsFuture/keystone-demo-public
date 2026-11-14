@@ -1,0 +1,1408 @@
+{
+ "note": "Fixed before any demonstration run. Expected effects for reused cases are run 7's frozen expectations.",
+ "not_available": [
+  {
+   "id": "NC_fence_read_outside_claim",
+   "reason": "the frozen run 7 code has no switch for it (run 5 control N-T3 used an earlier store); per record 200 s7 it is reported as not available, not rebuilt"
+  }
+ ],
+ "cases": [
+  {
+   "id": "L1_legitimate",
+   "run": "P1",
+   "group": "legitimate",
+   "kind": "correct",
+   "title": "Approved refund, requested and presented by its holder",
+   "expect": {
+    "effects": 1,
+    "categories": {
+     "o1": [
+      "EXECUTED ONCE, AUTHORIZED"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A1_revoked_before",
+   "run": "G6",
+   "group": "revocation",
+   "kind": "correct",
+   "title": "Authorization revoked and acknowledged before presentation",
+   "expect": {
+    "effects": 0,
+    "categories": {
+     "o1": [
+      "NOT EXECUTED: no request reached the destination"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "operator",
+     "action": "revoke_issued"
+    },
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "present",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A2_revocation_race",
+   "run": "A2_revocation_race",
+   "group": "revocation",
+   "kind": "correct",
+   "title": "Revocation racing the send, 20 trials",
+   "expect": {
+    "effects": null,
+    "categories": null,
+    "all_categories_prefix": {
+     "r": [
+      "NOT EXECUTED: no request reached the destination",
+      "EXECUTED AFTER REVOCATION WAS ISSUED",
+      "EXECUTED ONCE, AUTHORIZED"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "type": "operator",
+     "action": "revoke_issued",
+     "min": 20
+    }
+   ]
+  },
+  {
+   "id": "C1_revocation_after_control_point",
+   "run": "C1_revocation_after_control_point",
+   "group": "revocation",
+   "kind": "correct",
+   "title": "Revocation issued after the refund passed the control point",
+   "expect": {
+    "effects": 1,
+    "categories": {
+     "o1": [
+      "EXECUTED AFTER REVOCATION WAS ISSUED"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "operator",
+     "action": "revoke_issued"
+    }
+   ]
+  },
+  {
+   "id": "A3_stale_after_issuer_restore",
+   "run": "ID1",
+   "group": "stale",
+   "kind": "correct",
+   "title": "Issuer restored; it issues a new authorization for an already used refund",
+   "expect": {
+    "effects": 1,
+    "categories": {
+     "o1": [
+      "EXECUTED ONCE, AUTHORIZED"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K1_restore_none",
+   "run": "MK1_none",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K1, no restore, same authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K1_restore_i",
+   "run": "MK1_i",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K1, one Keystone store restored (store 1), same authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K1_restore_anc",
+   "run": "MK1_anc",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K1, one Keystone store restored (store 2), same authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K2_restore_none",
+   "run": "MK2_none",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K2, no restore, same authorization presented again",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K2_restore_i",
+   "run": "MK2_i",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K2, one Keystone store restored (store 1), same authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K2_restore_anc",
+   "run": "MK2_anc",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K2, one Keystone store restored (store 2), same authorization presented again",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K3_restore_none",
+   "run": "MK3_none",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K3, no restore, same authorization presented again",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K3_restore_i",
+   "run": "MK3_i",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K3, one Keystone store restored (store 1), same authorization presented again",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K3_restore_anc",
+   "run": "MK3_anc",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K3, one Keystone store restored (store 2), same authorization presented again",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K4_restore_none",
+   "run": "MK4_none",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K4, no restore, same authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K4_restore_i",
+   "run": "MK4_i",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K4, one Keystone store restored (store 1), same authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K4_restore_anc",
+   "run": "MK4_anc",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K4, one Keystone store restored (store 2), same authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K5_restore_none",
+   "run": "MK5_none",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K5, no restore, same authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K5_restore_i",
+   "run": "MK5_i",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K5, one Keystone store restored (store 1), same authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K5_restore_anc",
+   "run": "MK5_anc",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Boundary process crash at K5, one Keystone store restored (store 2), same authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K1_restore_both",
+   "run": "MK1_both",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Crash at K1, both stores restored (nothing had been sent)",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K2_restore_both",
+   "run": "MK2_both",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Crash at K2, both stores restored (nothing had been sent)",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A4_crash_K3_restore_both",
+   "run": "MK3_both",
+   "group": "crash/restore",
+   "kind": "correct",
+   "title": "Crash at K3, both stores restored (nothing had been sent)",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A5_reused_authorization",
+   "run": "G5",
+   "group": "reuse",
+   "kind": "correct",
+   "title": "Used authorization presented again",
+   "expect": {
+    "effects": 1,
+    "categories": {
+     "o1": [
+      "EXECUTED ONCE, AUTHORIZED"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "present",
+     "min": 2
+    }
+   ]
+  },
+  {
+   "id": "A6_admission_reuse",
+   "run": "G11",
+   "group": "reuse",
+   "kind": "correct",
+   "title": "Second authorization requested from a used admission",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "authorize",
+     "min": 2
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A7_concurrent_same",
+   "run": "CC1s",
+   "group": "reuse",
+   "kind": "correct",
+   "title": "Same authorization presented twice at once, 30 trials",
+   "expect": {
+    "effects": 30,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A7_concurrent_two_tokens",
+   "run": "CC1d",
+   "group": "reuse",
+   "kind": "correct",
+   "title": "Two authorizations for one refund presented at once, 30 trials",
+   "expect": {
+    "effects": 30,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "A8_altered_amount",
+   "run": "G3",
+   "group": "altered",
+   "kind": "correct",
+   "title": "Authorization for 100 presented with a request for 900",
+   "expect": {
+    "effects": 0,
+    "categories": {
+     "o1": [
+      "NOT EXECUTED: no request reached the destination"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "present",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A9_altered_payee",
+   "run": "A9_payee",
+   "group": "altered",
+   "kind": "correct",
+   "title": "Authorization presented with a different payee",
+   "expect": {
+    "effects": 0,
+    "categories": {
+     "o1": [
+      "NOT EXECUTED: no request reached the destination"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "present",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A10_altered_payment_ref",
+   "run": "A10_payment_ref",
+   "group": "altered",
+   "kind": "correct",
+   "title": "Authorization presented with a different payment reference",
+   "expect": {
+    "effects": 0,
+    "categories": {
+     "o1": [
+      "NOT EXECUTED: no request reached the destination"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "present",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A11_impersonation",
+   "run": "G1",
+   "group": "impersonation",
+   "kind": "correct",
+   "title": "Agent B signs as agent A",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_b",
+     "act": "authorize",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A12_other_agents_ticket",
+   "run": "G2",
+   "group": "impersonation",
+   "kind": "correct",
+   "title": "Agent B uses A's ticket under its own name",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_b",
+     "act": "authorize",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A13_other_agents_authorization",
+   "run": "G4",
+   "group": "impersonation",
+   "kind": "correct",
+   "title": "Agent B presents A's unused authorization",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_b",
+     "act": "present",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A14_never_admitted",
+   "run": "G8",
+   "group": "unauthorized",
+   "kind": "correct",
+   "title": "Ticket never approved by the operator",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "authorize",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A14_forged_admission",
+   "run": "G9",
+   "group": "unauthorized",
+   "kind": "correct",
+   "title": "Self-signed or flag-only approval",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "authorize",
+     "min": 2
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A14_admitted_other_amount",
+   "run": "G10",
+   "group": "unauthorized",
+   "kind": "correct",
+   "title": "Approved for 100, authorization requested for 900",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "authorize",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A14_unapproved_obligation",
+   "run": "G12",
+   "group": "unauthorized",
+   "kind": "correct",
+   "title": "Agent requests admission for an unapproved refund",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_b",
+     "act": "admit",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A14_altered_approval",
+   "run": "G13",
+   "group": "unauthorized",
+   "kind": "correct",
+   "title": "Agent requests admission with an altered amount",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "admit",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A14_same_payment_new_id",
+   "run": "ID2",
+   "group": "unauthorized",
+   "kind": "correct",
+   "title": "Same payment approved again under a new refund id",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "admit",
+     "min": 1
+    }
+   ]
+  },
+  {
+   "id": "A14_invented_obligation",
+   "run": "ID3",
+   "group": "unauthorized",
+   "kind": "correct",
+   "title": "Agent invents a refund id",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "admit",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A15_credential_read",
+   "run": "G7",
+   "group": "credential",
+   "kind": "correct",
+   "title": "Agent tries to read the destination credential",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_b",
+     "act": "read_file",
+     "min": 1
+    },
+    {
+     "type": "access_denied",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A15b_access_probes",
+   "run": "A15b_access_probes",
+   "group": "credential",
+   "kind": "correct",
+   "title": "Agents try to read Keystone keys, stores and the credential",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "access_denied",
+     "min": 20
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A16_alternative_path",
+   "run": "G0",
+   "group": "alternative path",
+   "kind": "correct",
+   "title": "Agent calls the destination directly without the credential",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_b",
+     "act": "direct",
+     "min": 1
+    },
+    {
+     "type": "uncredentialed_rejected",
+     "min": 1
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A17_operator_interfaces",
+   "run": "G14",
+   "group": "alternative path",
+   "kind": "correct",
+   "title": "Agent opens Keystone's operator interfaces",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "access_denied",
+     "min": 6
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "A18_retry_without_certificate",
+   "run": "AT1",
+   "group": "retry",
+   "kind": "correct",
+   "title": "Retries refused without a valid failure certificate",
+   "expect": {
+    "effects": 2,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "admit",
+     "min": 2
+    }
+   ]
+  },
+  {
+   "id": "A18_certificate_single_use",
+   "run": "AT3",
+   "group": "retry",
+   "kind": "correct",
+   "title": "One failure certificate allows exactly one retry",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "present",
+     "min": 1
+    },
+    {
+     "type": "operator",
+     "action": "approve_retry",
+     "min": 4
+    }
+   ]
+  },
+  {
+   "id": "U3_destination_error_after_executing",
+   "run": "TS4",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Destination executes, then returns an error",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "U3_connection_reset",
+   "run": "TS5",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Destination executes, then resets the connection",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "U3_reconciled_paid",
+   "run": "RC1",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Error after executing; read-only reconciliation finds it paid",
+   "expect": {
+    "effects": 1,
+    "categories": {
+     "o1": [
+      "EXECUTED ONCE, AUTHORIZED"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "U3_lookup_lag_escalated",
+   "run": "RC3",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Executed; look-up never finds it; escalated, never resent",
+   "expect": {
+    "effects": 1,
+    "categories": {
+     "o1": [
+      "EXECUTED, OUTCOME LEFT UNRESOLVED BY KEYSTONE"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "U4_definitive_decline_then_retry",
+   "run": "AT2",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Destination definitively refuses; certificate; exactly one retry executes",
+   "expect": {
+    "effects": 1,
+    "categories": {
+     "o1": [
+      "EXECUTED ONCE, AUTHORIZED"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "U4_declined_final",
+   "run": "RC2",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Destination declines (final); failure certificate issued",
+   "expect": {
+    "effects": 0,
+    "categories": {
+     "o1": [
+      "NOT EXECUTED: rejected by the destination"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "U_status_TS1",
+   "run": "TS1",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Destination accepts (200)",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "U_status_TS2",
+   "run": "TS2",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Destination refuses 401",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "U_status_TS2b",
+   "run": "TS2b",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Destination refuses 403",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "U_status_TS3",
+   "run": "TS3",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Destination refuses 422",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "U_status_TS4n",
+   "run": "TS4n",
+   "group": "uncertain",
+   "kind": "correct",
+   "title": "Destination error without executing",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "C2_failed_after_settlement",
+   "run": "ST1",
+   "group": "consequence occurred",
+   "kind": "correct",
+   "title": "Refund executed, then failed after settlement: escalated, no retry",
+   "expect": {
+    "effects": 1,
+    "categories": {
+     "o1": [
+      "EXECUTED ONCE, AUTHORIZED",
+      "EXECUTED, OUTCOME LEFT UNRESOLVED BY KEYSTONE"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "R_admission_reply_lost",
+   "run": "AR1",
+   "group": "recovery",
+   "kind": "correct",
+   "title": "Admission reply lost; identical evidence re-delivered",
+   "expect": {
+    "effects": 1,
+    "categories": {
+     "o1": [
+      "EXECUTED ONCE, AUTHORIZED"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "R_internal_record_write_fails",
+   "run": "AW1",
+   "group": "recovery",
+   "kind": "correct",
+   "title": "Keystone's internal record write fails: nothing sent",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "R_issuer_reply_lost_same_key",
+   "run": "L1",
+   "group": "recovery",
+   "kind": "correct",
+   "title": "Issuer reply lost; same agent retries; same authorization re-delivered",
+   "expect": {
+    "effects": 1,
+    "categories": {
+     "o1": [
+      "EXECUTED ONCE, AUTHORIZED"
+     ]
+    },
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "R_issuer_reply_lost_other_key",
+   "run": "L2",
+   "group": "recovery",
+   "kind": "correct",
+   "title": "Issuer reply lost; retry with another key refused (availability cost)",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": [
+    {
+     "type": "attempt",
+     "agent": "agent_a",
+     "act": "authorize",
+     "min": 2
+    },
+    {
+     "type": "no_credentialed_request"
+    }
+   ]
+  },
+  {
+   "id": "R_admission_concurrency",
+   "run": "C1",
+   "group": "recovery",
+   "kind": "correct",
+   "title": "Two authorizations requested at once for one admission, 30 trials",
+   "expect": {
+    "effects": 0,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "B1_double_restore_K4",
+   "run": "MK4_both",
+   "group": "KNOWN LIMITATION",
+   "kind": "limitation",
+   "title": "KNOWN LIMITATION: crash at K4, then both Keystone state stores restored together",
+   "expect": {
+    "effects": 2,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "B1_double_restore_K5",
+   "run": "MK5_both",
+   "group": "KNOWN LIMITATION",
+   "kind": "limitation",
+   "title": "KNOWN LIMITATION: crash at K5, then both Keystone state stores restored together",
+   "expect": {
+    "effects": 2,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_skip_requester_auth",
+   "run": "NK1",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: skip requester authentication",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_skip_holder_check",
+   "run": "NHB",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: skip ticket-holder check",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_skip_admission_check",
+   "run": "NADM",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: skip admission check",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_skip_binding_amount",
+   "run": "NK3",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: skip authorization-to-request binding (amount)",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_skip_binding_payee",
+   "run": "NK3_payee",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: skip binding (payee)",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_skip_binding_payment_ref",
+   "run": "NK3_payment_ref",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: skip binding (payment reference)",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_skip_possession",
+   "run": "NK2",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: skip proof of possession",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_credential_readable",
+   "run": "NK5",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: credential readable by agents",
+   "expect": {
+    "effects": 1,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_key_by_token",
+   "run": "NTOK",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: key operations by token instead of refund identity",
+   "expect": {
+    "effects": 2,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_no_internal_send_record",
+   "run": "NANCH",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: no internal send record (store 2)",
+   "expect": {
+    "effects": 2,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_send_despite_record_failure",
+   "run": "NAW",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: send although the internal record write failed",
+   "expect": {
+    "effects": 2,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_retry_without_certificate_check",
+   "run": "NAT",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: retry without verifying the certificate",
+   "expect": {
+    "effects": 2,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_not_found_as_failure",
+   "run": "NNF",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: treat 'not found' as failure",
+   "expect": {
+    "effects": 2,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_settlement_failure_as_failure",
+   "run": "NSET",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: treat failure after settlement as failure",
+   "expect": {
+    "effects": 2,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "NC_no_business_key",
+   "run": "NR2",
+   "group": "control",
+   "kind": "control",
+   "title": "Weakened: no one-refund-per-payment rule at admission",
+   "expect": {
+    "effects": 2,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  },
+  {
+   "id": "AV_batch_200",
+   "run": "AV_batch",
+   "group": "availability",
+   "kind": "correct",
+   "title": "200 legitimate refunds, two agents, no faults",
+   "expect": {
+    "effects": 200,
+    "categories": null,
+    "all_categories_prefix": {
+     "b": [
+      "EXECUTED ONCE, AUTHORIZED"
+     ]
+    }
+   },
+   "evidence": []
+  },
+  {
+   "id": "AV_fault_mix_40",
+   "run": "AV_fault_mix",
+   "group": "availability",
+   "kind": "correct",
+   "title": "40 legitimate refunds under permitted destination faults",
+   "expect": {
+    "effects": 40,
+    "categories": null,
+    "all_categories_prefix": {
+     "f": [
+      "EXECUTED ONCE, AUTHORIZED",
+      "EXECUTED, OUTCOME LEFT UNRESOLVED BY KEYSTONE"
+     ]
+    }
+   },
+   "evidence": []
+  },
+  {
+   "id": "BASELINE_no_boundary",
+   "run": "BASELINE_no_boundary",
+   "group": "baseline",
+   "kind": "baseline",
+   "title": "No boundary: agents hold the credential and call the destination directly",
+   "expect": {
+    "effects": null,
+    "categories": null,
+    "all_categories_prefix": null
+   },
+   "evidence": []
+  }
+ ]
+}

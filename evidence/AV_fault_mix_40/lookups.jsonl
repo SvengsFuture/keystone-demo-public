@@ -1,0 +1,24 @@
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f01:1", "t": 1794683658.011637}
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f02:1", "t": 1794683658.409089}
+{"answer": {"final": true, "status": "declined"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f03:1", "t": 1794683658.8147388}
+{"answer": {"status": "not_found"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f05:1", "t": 1794683660.0299277}
+{"answer": {"status": "not_found"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f05:1", "t": 1794683660.0366633}
+{"answer": {"status": "not_found"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f05:1", "t": 1794683660.0416408}
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f06:1", "t": 1794683660.4139686}
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f09:1", "t": 1794683661.6447675}
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f11:1", "t": 1794683662.3881636}
+{"answer": {"final": true, "status": "declined"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f14:1", "t": 1794683663.5596802}
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f16:1", "t": 1794683664.6994016}
+{"answer": {"status": "not_found"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f18:1", "t": 1794683665.4983208}
+{"answer": {"status": "not_found"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f18:1", "t": 1794683665.5044713}
+{"answer": {"status": "not_found"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f18:1", "t": 1794683665.5107408}
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f21:1", "t": 1794683666.755942}
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f23:1", "t": 1794683667.4847088}
+{"answer": {"final": true, "status": "declined"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f25:1", "t": 1794683668.2602997}
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f26:1", "t": 1794683669.1470122}
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f30:1", "t": 1794683670.7247522}
+{"answer": {"status": "not_found"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f31:1", "t": 1794683671.138623}
+{"answer": {"status": "not_found"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f31:1", "t": 1794683671.1457317}
+{"answer": {"status": "not_found"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f31:1", "t": 1794683671.152127}
+{"answer": {"final": true, "status": "declined"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f36:1", "t": 1794683673.1127586}
+{"answer": {"status": "paid"}, "cred_ok": true, "path": "/lookup", "peer_uid": 994, "ref": "f37:1", "t": 1794683673.9190578}

@@ -1,0 +1,4 @@
+{"gseq": 14, "recorder_seq": 9, "ref": "o1:1", "result": "claimed", "source_line_sha": "3ff2661454e5cb7eb636f1673959f4d1e3d4ff4254a17bd925d3442c336bb5fe", "token_id": "tok-260433e82316e95e", "type": "claim_result", "writer": "keystone_boundary"}
+{"amount": 100, "attempt": 1, "customer": "C1", "gseq": 17, "obligation": "o1", "payment_ref": "pay-o1", "recorder_seq": 12, "ref": "o1:1", "source_line_sha": "fbef425d4d34c0daf09ca08ca42edf59bca079d0454a539f5c61b754b08395d1", "token_id": "tok-260433e82316e95e", "type": "dispatch", "writer": "keystone_boundary"}
+{"gseq": 23, "recorder_seq": 15, "ref": "o1:1", "source_line_sha": "eb0623b35d8f80c03fe3dfb4e9c071250d51464ebcd0bbe20f587a2f8eb9f6be", "type": "held", "writer": "keystone_boundary"}
+{"gseq": 26, "recorder_seq": 16, "ref": "o1:1", "source_line_sha": "fa4600e9be16d889cf35f8f632e4cdb9d4671b9ce05a4ed774c18da6e73dccc6", "state": "RESULT", "type": "reconciled", "writer": "keystone_boundary"}

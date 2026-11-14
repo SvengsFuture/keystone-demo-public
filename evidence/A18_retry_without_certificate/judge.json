@@ -1,0 +1,84 @@
+{
+ "bindings": {
+  "mode": "public view",
+  "ok": true,
+  "problems": []
+ },
+ "chains": {
+  "executions.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "lookups.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "operator.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "receipts.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "transcript.jsonl": {
+   "ok": true,
+   "problem": null
+  }
+ },
+ "effects_total": 2,
+ "failures": [],
+ "forbidden": [],
+ "integrity_ok": true,
+ "obligations": {
+  "o1": {
+   "approved": true,
+   "category": "EXECUTED ONCE, AUTHORIZED",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted; failure certificate refused",
+   "revocation_issued": false
+  },
+  "o2": {
+   "approved": true,
+   "category": "NOT EXECUTED: rejected by the destination",
+   "effects": 0,
+   "keystone_statement": "claim claimed; dispatched; result provider_rejected; failure certificate issued",
+   "revocation_issued": false
+  },
+  "o3": {
+   "approved": true,
+   "category": "EXECUTED, OUTCOME LEFT UNRESOLVED BY KEYSTONE",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result unresolved; failure certificate refused",
+   "revocation_issued": false
+  }
+ },
+ "observed": {
+  "access_attempts": 0,
+  "access_denied_by_os": 0,
+  "access_granted": 0,
+  "attempts": {
+   "agent_a:admit": 4,
+   "agent_a:authorize": 3,
+   "agent_a:present": 3
+  },
+  "credentialed_requests": 3,
+  "effects": 2,
+  "operator_actions": {
+   "approve": 3,
+   "approve_reply": 3,
+   "approve_retry": 4,
+   "ticket": 3
+  },
+  "uncredentialed_requests_rejected": 0
+ },
+ "recorder": {
+  "boundary_uid": 994,
+  "chain_problem": null,
+  "events_from_other_writers_not_used": 20,
+  "recorder_chain_ok": true,
+  "recorder_lines": 41,
+  "sealed_recorder_sha256": "fcb69e7e4e753a9c1ca2b65dba5e971fff514fc1ab5bfb40c9a1d1a5704a6b70"
+ },
+ "uncredentialed_requests_rejected": 0
+}

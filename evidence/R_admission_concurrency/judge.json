@@ -1,0 +1,271 @@
+{
+ "bindings": {
+  "mode": "public view",
+  "ok": true,
+  "problems": []
+ },
+ "chains": {
+  "executions.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "lookups.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "operator.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "receipts.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "transcript.jsonl": {
+   "ok": true,
+   "problem": null
+  }
+ },
+ "effects_total": 0,
+ "failures": [],
+ "forbidden": [],
+ "integrity_ok": true,
+ "obligations": {
+  "c0": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c1": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c10": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c11": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c12": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c13": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c14": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c15": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c16": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c17": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c18": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c19": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c2": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c20": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c21": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c22": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c23": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c24": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c25": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c26": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c27": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c28": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c29": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c3": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c4": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c5": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c6": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c7": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c8": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  },
+  "c9": {
+   "approved": true,
+   "category": "NOT EXECUTED: no request reached the destination",
+   "effects": 0,
+   "keystone_statement": "no Keystone report",
+   "revocation_issued": false
+  }
+ },
+ "observed": {
+  "access_attempts": 0,
+  "access_denied_by_os": 0,
+  "access_granted": 0,
+  "attempts": {
+   "agent_a:admit": 30,
+   "agent_a:authorize": 60
+  },
+  "credentialed_requests": 0,
+  "effects": 0,
+  "operator_actions": {
+   "approve": 30,
+   "approve_reply": 30,
+   "ticket": 30
+  },
+  "uncredentialed_requests_rejected": 0
+ },
+ "recorder": {
+  "boundary_uid": 994,
+  "chain_problem": null,
+  "events_from_other_writers_not_used": 150,
+  "recorder_chain_ok": true,
+  "recorder_lines": 150,
+  "sealed_recorder_sha256": "787f0a0b4f707331e58ade16173993671327424d5aba8c2112456ad8de04d627"
+ },
+ "uncredentialed_requests_rejected": 0
+}

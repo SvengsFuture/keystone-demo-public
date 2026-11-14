@@ -1,0 +1,3 @@
+{"action": "ticket", "amount": 900, "customer": "C1", "holder": "agent_a", "obligation": "o3", "payment_ref": "pay-o3", "t": 1794683526.353819}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "o3", "payment_ref": "pay-o3", "t": 1794683526.3550544}
+{"action": "approve_reply", "keystone_says": true, "obligation": "o3", "t": 1794683526.3638296}

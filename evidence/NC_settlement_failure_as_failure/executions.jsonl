@@ -1,0 +1,2 @@
+{"amount": 100, "attempt": 1, "customer": "C1", "obligation": "o1", "payment_ref": "pay-o1", "peer_uid": 994, "receipt_n": 1, "ref": "o1:1", "t": 1794683574.572485, "token_id": "tok-73af4f71a3c3d9d7"}
+{"amount": 100, "attempt": 2, "customer": "C1", "obligation": "o1", "payment_ref": "pay-o1", "peer_uid": 994, "receipt_n": 2, "ref": "o1:2", "t": 1794683574.9556053, "token_id": "tok-a1b7888fcf6c8f36"}

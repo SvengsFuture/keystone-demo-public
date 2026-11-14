@@ -1,0 +1,42 @@
+{
+ "case": {
+  "evidence": [
+   {
+    "action": "revoke_issued",
+    "min": 20,
+    "type": "operator"
+   }
+  ],
+  "expect": {
+   "all_categories_prefix": {
+    "r": [
+     "NOT EXECUTED: no request reached the destination",
+     "EXECUTED AFTER REVOCATION WAS ISSUED",
+     "EXECUTED ONCE, AUTHORIZED"
+    ]
+   },
+   "categories": null,
+   "effects": null
+  },
+  "group": "revocation",
+  "id": "A2_revocation_race",
+  "kind": "correct",
+  "run": "A2_revocation_race",
+  "title": "Revocation racing the send, 20 trials"
+ },
+ "error": null,
+ "seconds": 13.7,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 17 accepted effects",
+   "satisfied: operator record: 20 'revoke_issued' (required 20)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 17,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

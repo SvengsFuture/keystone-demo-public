@@ -1,0 +1,31 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 2
+  },
+  "group": "control",
+  "id": "NC_no_business_key",
+  "kind": "control",
+  "run": "NR2",
+  "title": "Weakened: no one-refund-per-payment rule at admission"
+ },
+ "error": null,
+ "seconds": 0.9,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 2 accepted effects (expected 2)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 2,
+  "failures": [],
+  "forbidden": [
+   "payment:pay-1"
+  ],
+  "status": "CONTROL BIT"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 1
+  },
+  "group": "crash/restore",
+  "id": "A4_crash_K5_restore_anc",
+  "kind": "correct",
+  "run": "MK5_anc",
+  "title": "Boundary process crash at K5, one Keystone store restored (store 2), same authorization presented again"
+ },
+ "error": null,
+ "seconds": 1.0,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 1 accepted effects (expected 1)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 1,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

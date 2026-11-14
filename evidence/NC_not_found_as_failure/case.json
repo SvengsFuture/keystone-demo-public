@@ -1,0 +1,31 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 2
+  },
+  "group": "control",
+  "id": "NC_not_found_as_failure",
+  "kind": "control",
+  "run": "NNF",
+  "title": "Weakened: treat 'not found' as failure"
+ },
+ "error": null,
+ "seconds": 0.9,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 2 accepted effects (expected 2)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 2,
+  "failures": [],
+  "forbidden": [
+   "o1"
+  ],
+  "status": "CONTROL BIT"
+ }
+}

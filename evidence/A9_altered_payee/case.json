@@ -1,0 +1,45 @@
+{
+ "case": {
+  "evidence": [
+   {
+    "act": "present",
+    "agent": "agent_a",
+    "min": 1,
+    "type": "attempt"
+   },
+   {
+    "type": "no_credentialed_request"
+   }
+  ],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": {
+    "o1": [
+     "NOT EXECUTED: no request reached the destination"
+    ]
+   },
+   "effects": 0
+  },
+  "group": "altered",
+  "id": "A9_altered_payee",
+  "kind": "correct",
+  "run": "A9_payee",
+  "title": "Authorization presented with a different payee"
+ },
+ "error": null,
+ "seconds": 0.4,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 0 accepted effects (expected 0)",
+   "satisfied: interface record: agent_a made 1 'present' call(s) (required 1)",
+   "satisfied: destination record: 0 credentialed refund requests (required 0)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 0,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

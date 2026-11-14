@@ -1,0 +1,33 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": {
+    "o1": [
+     "EXECUTED ONCE, AUTHORIZED"
+    ]
+   },
+   "effects": 1
+  },
+  "group": "uncertain",
+  "id": "U4_definitive_decline_then_retry",
+  "kind": "correct",
+  "run": "AT2",
+  "title": "Destination definitively refuses; certificate; exactly one retry executes"
+ },
+ "error": null,
+ "seconds": 1.0,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 1 accepted effects (expected 1)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 1,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

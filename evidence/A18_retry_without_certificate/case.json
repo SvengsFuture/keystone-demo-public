@@ -1,0 +1,37 @@
+{
+ "case": {
+  "evidence": [
+   {
+    "act": "admit",
+    "agent": "agent_a",
+    "min": 2,
+    "type": "attempt"
+   }
+  ],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 2
+  },
+  "group": "retry",
+  "id": "A18_retry_without_certificate",
+  "kind": "correct",
+  "run": "AT1",
+  "title": "Retries refused without a valid failure certificate"
+ },
+ "error": null,
+ "seconds": 1.3,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 2 accepted effects (expected 2)",
+   "satisfied: interface record: agent_a made 4 'admit' call(s) (required 2)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 2,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

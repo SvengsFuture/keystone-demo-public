@@ -1,0 +1,31 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 2
+  },
+  "group": "control",
+  "id": "NC_send_despite_record_failure",
+  "kind": "control",
+  "run": "NAW",
+  "title": "Weakened: send although the internal record write failed"
+ },
+ "error": null,
+ "seconds": 0.8,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 2 accepted effects (expected 2)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 2,
+  "failures": [],
+  "forbidden": [
+   "o1"
+  ],
+  "status": "CONTROL BIT"
+ }
+}

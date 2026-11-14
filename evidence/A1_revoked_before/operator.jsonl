@@ -1,0 +1,4 @@
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "o1", "payment_ref": "pay-o1", "t": 1794683432.7028282}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "o1", "payment_ref": "pay-o1", "t": 1794683432.7048798}
+{"action": "approve_reply", "keystone_says": true, "obligation": "o1", "t": 1794683432.7146113}
+{"action": "revoke_issued", "obligation": "o1", "t": 1794683432.9824557, "ticket_id": "tk-o1"}

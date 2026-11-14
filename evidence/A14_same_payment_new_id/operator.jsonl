@@ -1,0 +1,6 @@
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "o1", "payment_ref": "pay-1", "t": 1794683528.1056468}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "o1", "payment_ref": "pay-1", "t": 1794683528.1067455}
+{"action": "approve_reply", "keystone_says": true, "obligation": "o1", "t": 1794683528.1139956}
+{"action": "ticket", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "o1b", "payment_ref": "pay-1", "t": 1794683528.114759}
+{"action": "approve", "amount": 100, "customer": "C1", "holder": "agent_a", "obligation": "o1b", "payment_ref": "pay-1", "t": 1794683528.1153045}
+{"action": "approve_reply", "keystone_says": false, "obligation": "o1b", "t": 1794683528.1209717}

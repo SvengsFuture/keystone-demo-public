@@ -1,0 +1,1 @@
+{"act": "admit", "agent": "agent_a", "error": null, "granted": null, "http_status": null, "outcome": null, "reason": "not_approved", "source": {"gseq": 2, "line_sha": "2349e0eb6abf446986af29320e847f42d269893ee6bcb172022611503bbd9b92"}, "status": null, "t": 1794683528.7856708, "token_id": null, "uid": 992}

@@ -1,0 +1,78 @@
+{
+ "bindings": {
+  "mode": "public view",
+  "ok": true,
+  "problems": []
+ },
+ "chains": {
+  "executions.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "lookups.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "operator.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "receipts.jsonl": {
+   "ok": true,
+   "problem": null
+  },
+  "transcript.jsonl": {
+   "ok": true,
+   "problem": null
+  }
+ },
+ "effects_total": 2,
+ "failures": [],
+ "forbidden": [
+  "payment:pay-1"
+ ],
+ "integrity_ok": true,
+ "obligations": {
+  "o1": {
+   "approved": true,
+   "category": "FORBIDDEN: more than one refund for payment pay-1",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  },
+  "o1b": {
+   "approved": true,
+   "category": "FORBIDDEN: more than one refund for payment pay-1",
+   "effects": 1,
+   "keystone_statement": "claim claimed; dispatched; result provider_accepted",
+   "revocation_issued": false
+  }
+ },
+ "observed": {
+  "access_attempts": 0,
+  "access_denied_by_os": 0,
+  "access_granted": 0,
+  "attempts": {
+   "agent_a:admit": 2,
+   "agent_a:authorize": 2,
+   "agent_a:present": 2
+  },
+  "credentialed_requests": 2,
+  "effects": 2,
+  "operator_actions": {
+   "approve": 2,
+   "approve_reply": 2,
+   "ticket": 2
+  },
+  "uncredentialed_requests_rejected": 0
+ },
+ "recorder": {
+  "boundary_uid": 994,
+  "chain_problem": null,
+  "events_from_other_writers_not_used": 10,
+  "recorder_chain_ok": true,
+  "recorder_lines": 22,
+  "sealed_recorder_sha256": "9876ed099622820453734dfc87e3a17da549a76ce6be428635049fe9e1f4edac"
+ },
+ "uncredentialed_requests_rejected": 0
+}

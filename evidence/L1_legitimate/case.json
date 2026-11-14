@@ -1,0 +1,33 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": {
+    "o1": [
+     "EXECUTED ONCE, AUTHORIZED"
+    ]
+   },
+   "effects": 1
+  },
+  "group": "legitimate",
+  "id": "L1_legitimate",
+  "kind": "correct",
+  "run": "P1",
+  "title": "Approved refund, requested and presented by its holder"
+ },
+ "error": null,
+ "seconds": 0.4,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 1 accepted effects (expected 1)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 1,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

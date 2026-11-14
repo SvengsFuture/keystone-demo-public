@@ -1,0 +1,41 @@
+{
+ "case": {
+  "evidence": [
+   {
+    "act": "present",
+    "agent": "agent_a",
+    "min": 2,
+    "type": "attempt"
+   }
+  ],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": {
+    "o1": [
+     "EXECUTED ONCE, AUTHORIZED"
+    ]
+   },
+   "effects": 1
+  },
+  "group": "reuse",
+  "id": "A5_reused_authorization",
+  "kind": "correct",
+  "run": "G5",
+  "title": "Used authorization presented again"
+ },
+ "error": null,
+ "seconds": 0.5,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 1 accepted effects (expected 1)",
+   "satisfied: interface record: agent_a made 2 'present' call(s) (required 2)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 1,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

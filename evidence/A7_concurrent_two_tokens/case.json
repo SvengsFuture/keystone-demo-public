@@ -1,0 +1,29 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 30
+  },
+  "group": "reuse",
+  "id": "A7_concurrent_two_tokens",
+  "kind": "correct",
+  "run": "CC1d",
+  "title": "Two authorizations for one refund presented at once, 30 trials"
+ },
+ "error": null,
+ "seconds": 24.8,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 30 accepted effects (expected 30)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 30,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

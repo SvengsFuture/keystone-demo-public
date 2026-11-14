@@ -1,0 +1,31 @@
+{
+ "case": {
+  "evidence": [],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 2
+  },
+  "group": "KNOWN LIMITATION",
+  "id": "B1_double_restore_K4",
+  "kind": "limitation",
+  "run": "MK4_both",
+  "title": "KNOWN LIMITATION: crash at K4, then both Keystone state stores restored together"
+ },
+ "error": null,
+ "seconds": 0.9,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 2 accepted effects (expected 2)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 2,
+  "failures": [],
+  "forbidden": [
+   "o1"
+  ],
+  "status": "KNOWN LIMITATION OBSERVED (FORBIDDEN, counted)"
+ }
+}

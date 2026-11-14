@@ -1,0 +1,1 @@
+{"act": "direct", "agent": "agent_b", "error": null, "granted": null, "http_status": 401, "outcome": null, "reason": null, "source": {"gseq": 7, "line_sha": "ce3270bcf3db1512c46e9063494bba28c97957e9064f53986fe4a41dfe7fb744"}, "status": null, "t": 1794683532.7096946, "token_id": null, "uid": 991}

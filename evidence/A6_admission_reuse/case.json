@@ -1,0 +1,41 @@
+{
+ "case": {
+  "evidence": [
+   {
+    "act": "authorize",
+    "agent": "agent_a",
+    "min": 2,
+    "type": "attempt"
+   },
+   {
+    "type": "no_credentialed_request"
+   }
+  ],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": null,
+   "effects": 0
+  },
+  "group": "reuse",
+  "id": "A6_admission_reuse",
+  "kind": "correct",
+  "run": "G11",
+  "title": "Second authorization requested from a used admission"
+ },
+ "error": null,
+ "seconds": 0.4,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 0 accepted effects (expected 0)",
+   "satisfied: interface record: agent_a made 2 'authorize' call(s) (required 2)",
+   "satisfied: destination record: 0 credentialed refund requests (required 0)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 0,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}

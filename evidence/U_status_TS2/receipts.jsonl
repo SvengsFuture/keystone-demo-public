@@ -1,0 +1,1 @@
+{"body": {"amount": 100, "attempt": 1, "customer": "C1", "obligation": "o1", "payment_ref": "pay-o1", "ref": "o1:1", "ticket_id": "tk-o1", "token_id": "tok-34ef26cb4b1a5c82"}, "cred_ok": true, "disposition": "401", "n": 1, "path": "/refund", "peer_pid": 18530, "peer_uid": 994, "ref": "o1:1", "t": 1794683543.2484262, "token_id": "tok-34ef26cb4b1a5c82"}

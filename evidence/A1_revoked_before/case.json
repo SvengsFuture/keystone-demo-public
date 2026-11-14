@@ -1,0 +1,50 @@
+{
+ "case": {
+  "evidence": [
+   {
+    "action": "revoke_issued",
+    "type": "operator"
+   },
+   {
+    "act": "present",
+    "agent": "agent_a",
+    "min": 1,
+    "type": "attempt"
+   },
+   {
+    "type": "no_credentialed_request"
+   }
+  ],
+  "expect": {
+   "all_categories_prefix": null,
+   "categories": {
+    "o1": [
+     "NOT EXECUTED: no request reached the destination"
+    ]
+   },
+   "effects": 0
+  },
+  "group": "revocation",
+  "id": "A1_revoked_before",
+  "kind": "correct",
+  "run": "G6",
+  "title": "Authorization revoked and acknowledged before presentation"
+ },
+ "error": null,
+ "seconds": 0.5,
+ "verdict": {
+  "basis": [
+   "Zone O hash chains (destination, operator record, transcript, sealed recorder): intact",
+   "destination record: 0 accepted effects (expected 0)",
+   "satisfied: operator record: 1 'revoke_issued' (required 1)",
+   "satisfied: interface record: agent_a made 1 'present' call(s) (required 1)",
+   "satisfied: destination record: 0 credentialed refund requests (required 0)",
+   "public view: protected-term scan clean; same verdict from the full Zone O evidence: True"
+  ],
+  "chains_ok": true,
+  "effects": 0,
+  "failures": [],
+  "forbidden": [],
+  "status": "PASS"
+ }
+}
