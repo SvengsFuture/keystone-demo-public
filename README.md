@@ -33,6 +33,63 @@ which agents must use it, and must make sure those agents hold no other route to
 
 ---
 
+## How a refund moves through Keystone
+
+```
+operator approves one exact refund (payee, amount, payment reference) for one named agent
+        │
+        ▼
+1 ADMISSION      the agent asks to proceed. Keystone checks the request against the operator's
+                 approval. It is admitted once, and an original payment can be refunded only once.
+        │
+        ▼
+2 AUTHORIZATION  Keystone issues a single-use authorization (a signed token), bound to that agent
+                 and those exact details
+        │
+        ▼
+3 PRESENTATION   the agent presents the authorization, together with the refund request, at
+                 Keystone's boundary
+        │
+        ▼
+4 CONTROL POINT  the boundary checks the presenter, the details, single use and revocation, and
+        │        commits to sending
+        │        ── up to here a refund can still be stopped; after here it cannot be recalled ──
+        ▼
+5 SEND           the boundary, the only holder of the payment credential, sends the refund
+        │
+        ▼
+6 DESTINATION    executes the refund (an accepted effect) and replies. If the reply is lost,
+                 Keystone checks with the destination read-only and never resends on a guess.
+```
+
+**Why three steps before the control point?**
+- **Admission** ties the agent's request to the operator's decision.
+- **Authorization** turns that decision into something only one agent can use, once, for one exact set of details.
+- **Presentation** is the moment the agent actually asks for the action, and the only point at which it can.
+
+Each step refuses on its own terms, so a failure at one step cannot be repaired by the next.
+
+### Glossary
+
+| term | meaning |
+|---|---|
+| refund, obligation | one refund the operator may approve, identified by a refund id |
+| ticket | the operator's record that a named agent may request that refund |
+| approval | the operator's decision that the refund may happen, with its exact details |
+| admission | Keystone's check of an agent's request against the approval, made once |
+| authorization (token) | the single-use, signed permission Keystone issues after admission |
+| presentation | the agent handing the authorization and the refund request to the boundary |
+| control point | the moment the boundary commits to sending. Revocation, reuse and details are checked here |
+| revocation | the operator withdrawing an approval. It stops the refund only if it takes effect before the control point |
+| accepted effect | a refund the destination actually executed: its own ledger, the ground truth |
+| dispatch | Keystone's report, made before sending, that it is about to send |
+| hold, escalation | Keystone stopping a refund whose outcome it cannot establish, and handing it to a person |
+| failure certificate | evidence, from the destination itself, that an attempt did not execute. It is the only way to retry |
+| projection | the public form of Keystone's own reports |
+| gseq | one shared sequence number across all observation records, used to order events |
+
+---
+
 ## Which version of Keystone this is
 
 The run used a **frozen version** of Keystone. It is the version tested in the authors' earlier
@@ -70,14 +127,21 @@ or production deployments, or anything about paths that do not go through Keysto
 
 ## The known failure (read this first)
 
-Cases `B1_double_restore_K4` and `B1_double_restore_K5` restore two of Keystone's internal state stores
-together, to a point before a refund was sent, after a crash. Keystone then has no record that the send
-happened, sends again, and **the destination executes the refund twice**. The judge classifies both as
-**FORBIDDEN**, and they are counted as failures.
+Keystone keeps two separate records that protect against sending a refund twice:
+- **store 1** is the boundary's record of the operations it has committed to send. A second attempt at the same operation is refused, because the record shows it was already committed.
+- **store 2** is a separate record that a send may already have happened. If store 1 loses its record, store 2 still causes Keystone to **hold** the refund instead of sending it again.
 
-Keystone's protection against duplicates depends on those two stores **not** being rolled back
-together. That means separate storage, separate backups and separate administration. Restoring either
-store **alone** produced no duplicate in any tested crash position: see the `A4_crash_*` cases.
+**Each record covers the other's loss. Restoring both together removes both.** If both are restored to a
+point before a refund was sent, every record Keystone has of that send is gone. Keystone then treats the
+refund as never sent, and sends it again.
+
+Cases `B1_double_restore_K4` and `B1_double_restore_K5` do exactly that, after a crash, and **the
+destination executes the refund twice**. The judge classifies both as **FORBIDDEN**, and they are
+counted as failures.
+
+**Restoring either store alone** produced no duplicate in any tested crash position (the `A4_crash_*`
+cases). Keystone's protection against duplicates therefore depends on the two records never being
+rolled back together. That means separate storage, separate backups and separate administration.
 
 ---
 
@@ -90,8 +154,13 @@ revocation in force at the control point.
 - Repeated attempts at an executed refund are refused or held.
 - A new refund for an already refunded payment is refused.
 
-**Stops safely, with a cost:** some legitimate refunds end with **no request reaching the
-destination**, or **executed but unresolved**. Nothing is ever resent on a guess. Examples:
+**Stops because it should:** a refund whose approval the operator **revoked** before it reached the
+control point is stopped. That is the revocation doing its job, **not a cost**. The same goes for every
+refused unauthorized attempt.
+
+**Stops safely, with a cost:** some **legitimate** refunds end with **no request reaching the
+destination**, or **executed but unresolved**. These are **availability costs**: stranded legitimate
+work, and outcomes a person has to resolve. Nothing is ever resent on a guess. Examples:
 - after a crash between the claim and the send;
 - after a lost reply when the destination's look-up never finds the refund;
 - after a crash in which Keystone's own record of the send is restored away.
@@ -108,14 +177,16 @@ has to resolve it. That procedure is designed but not part of this version. See
 
 | path | what it is |
 |---|---|
-| `examine.py` | **Run this.** Checks every case's fingerprints, re-runs the judge, and recomputes every verdict |
-| `tools/judge.py` | the independent judge (standard library only; imports nothing from Keystone) |
+| `examine.py` | **Run this.** Checks every case's fingerprints, re-runs the judge, recomputes every verdict, and checks judge v2 agrees |
+| `tools/judge.py` | the independent judge, **as scored** (standard library only; imports nothing from Keystone) |
+| `tools/judge_v2.py` | judge version 2, a post-scoring correction: it also counts records that lack a chain entry |
 | `tools/zo_common.py` | hash-chain and sequence helpers used by the judge and the destination |
 | `tools/destination_o.py` | the simulated payment destination, for reference: what an "accepted effect" is |
 | `cases.json` | the case catalogue, with every expected outcome and evidence requirement, written **before** the run |
 | `evidence/<case>/` | one folder per case: the evidence the judge used, its report, and the verdict |
 | `evidence/SUMMARY.md` | the run's summary table |
 | `FINGERPRINTS_scored_code.txt` | SHA-256 of the tools and catalogue exactly as used in the run |
+| `FINGERPRINTS_post_scoring_tools.txt` | SHA-256 of tools added after the run (judge v2, examine.py) |
 
 **Not included, on purpose:**
 - Keystone's implementation;
@@ -203,15 +274,21 @@ The catalogue (`cases.json`) has 83 cases:
 
 **Crash points** are named K1 to K5:
 
-| point | when the crash happens |
-|---|---|
-| K1 | before the claim |
-| K2 | right after the claim, before transmission |
-| K3 | a later point after the claim, before transmission |
-| K4 | the destination executed, but the reply was lost |
-| K5 | after the result was recorded |
+| point | when the crash happens | what it stands for in practice |
+|---|---|---|
+| K1 | before the control point | the boundary process dies before committing: a crash, a restart, a lost machine |
+| K2 | right after the control point, before sending | the process dies between deciding to send and sending |
+| K3 | a later point after the control point, before sending | the same, after Keystone has recorded that a send may follow |
+| K4 | the destination executed, but the reply was lost | a network failure or timeout after the payment went through: the case that tempts a system to retry |
+| K5 | after the result was recorded | a crash after everything finished |
 
-"Store 1" and "store 2" are two of Keystone's internal state stores.
+"Store 1" and "store 2" are the two records described in *The known failure*.
+
+**The revocation race used deliberately chosen timing.** Each revocation was issued after a delay picked
+at random from a range chosen so that some revocations would land before the control point and some
+after. The split observed (3 stopped, 15 executed before the revocation was issued, 2 executed after it
+was issued) shows that both sides of the control point were exercised. **It is not a measurement or a
+prediction of how often revocations win in production.**
 
 **Negative controls** each run Keystone with **one protection deliberately removed**. Each must produce
 a forbidden or failed effect, or it is reported as an ineffective test.
@@ -228,7 +305,8 @@ Requires Python 3 and the standard library only.
 ```
 python3 examine.py                 # all cases
 python3 examine.py A11_impersonation B1_double_restore_K4
-python3 tools/judge.py evidence/L1_legitimate       # writes judge.json (use a copy of the folder)
+python3 examine.py --evidence /path/to/altered-copy  # examine your own altered copy of evidence/
+python3 tools/judge.py COPY_OF_A_CASE_FOLDER          # writes judge.json into that folder
 sha256sum -c FINGERPRINTS_scored_code.txt
 ```
 
@@ -238,6 +316,8 @@ sha256sum -c FINGERPRINTS_scored_code.txt
 correct configuration: 65 cases, 65 PASS
 negative controls:     15, bit 15
 known limitation:      2, forbidden result observed in 2
+baseline (no boundary): BASELINE, NO BOUNDARY: 205 accepted effects, 2 forbidden, 200 failures
+judge version 2:       same verdict and categories as the scored judge in 83 of 83 cases
 EXAMINATION: every published result reproduced from the published evidence
 ```
 
@@ -245,7 +325,7 @@ EXAMINATION: every published result reproduced from the published evidence
 - Read a case's `executions.jsonl`: that ledger is the ground truth.
 - Compare it with `operator.jsonl` and `transcript.jsonl`.
 - Check that the judge's category follows from them.
-- Try editing a copy of the evidence and see what the judge does.
+- Try editing a copy of the evidence (copy `evidence/` elsewhere, change it, then run `examine.py --evidence` on the copy) and see what the judge does.
 
 ---
 
@@ -254,8 +334,15 @@ EXAMINATION: every published result reproduced from the published evidence
 **You can check, from this package alone:**
 - every accepted effect at the destination, and that no tested unauthorized attempt produced one;
 - that every verdict follows from the published evidence by the published rules;
-- that none of the records was edited, reordered or truncated after it was written;
-- that the public records correspond one for one, in order, to lines of the original records.
+- **chain consistency.** Each record's hash chain is internally consistent. An edit, reordering or truncation that did not also rewrite the chain would show.
+- **the interface record.** The public interface record corresponds one for one, in order, to the lines of the full original record.
+- **the projection.** It is a **selective** subset of Keystone's sealed reports. Each projection entry is bound to its own distinct line of the sealed log. A **missing** projection entry cannot be detected from this package, with one exception: a missing dispatch makes the case fail ("executed without a witnessed dispatch").
+
+**What the fingerprints prove.** `SHA256SUMS`, `PACKAGE_SHA256SUMS` and `FINGERPRINTS_scored_code.txt` sit
+next to the files they describe, so anyone who altered the files could also regenerate them. They
+prove the package is unchanged **only when compared with a copy you obtained independently**. For
+example, check out the repository commit whose identifier the authors gave you through a separate
+channel, and compare.
 
 **You cannot check, from this package alone:**
 - **Fidelity of content.** That the *content* of the public interface record and of the projection faithfully reflects the originals. You can check structure and binding, not the words. A reviewer holding the originals, under agreement, can rebuild both byte for byte. That check passed for every case, but you cannot repeat it here.
@@ -266,13 +353,42 @@ EXAMINATION: every published result reproduced from the published evidence
 **Structural exposure.** The sealed recorder's hash chain shows how many events Keystone reported, and
 where, though not what they were.
 
+**Trusted components.** These are trusted, not tested:
+- **the simulated payment destination:** its ledger is taken as the truth of what executed;
+- **the operator:** approvals and revocations are taken as legitimate;
+- **the authors' machine**, on which the observation records were made.
+
+Compromise of the operator, of the destination, or of that machine was **not tested**, and is outside the claim.
+
 ---
 
 ## Limits of the evidence
 
-- **Author-run.** The run was performed by the authors, on their infrastructure. This package is its first outside examination.
-- **Simulated destination.** It means "definitely not executed" only because its own code makes it so. Real providers differ.
+- **Author-run.** The run was performed by the authors, on their infrastructure.
+- **Simulated, trusted destination.** It means "definitely not executed" only because its own code makes it so. Real providers differ.
 - **Stand-in custody.** Credential custody is simulated with operating-system users and file permissions on one machine.
 - **Trusted operator.** The operator role is trusted.
 - **Bounded tests.** The test set is bounded. Passing it is not proof against attacks that were not tested.
 - **No live clocks.** The demonstration measures outcomes, not production performance. Timings in the availability cases include test-harness process start-up.
+
+---
+
+## Examination history
+
+One independent technical examination of this package has been carried out (package commit `41718f4`).
+The examiner already knew the Keystone implementation from earlier work with the authors. The
+examination therefore tested the judge, the evidence and the claims, but **could not test** whether the
+package is understandable to, or reveals the architecture to, someone meeting Keystone for the first
+time. That needs a first-time reader. The examiner's report is held privately by the authors.
+
+Changes made after that examination are listed in *Changes since the scored run*.
+
+---
+
+## Changes since the scored run
+
+The evidence, the cases, the verdicts and the scored judge are unchanged. Added after the examination:
+- **`tools/judge_v2.py`.** A separately versioned judge that also counts destination records lacking a valid chain entry. The scored judge counted only chained records, so a record added without a chain entry made the case fail on integrity, but the per-refund detail understated the effects. Judge v2 reaches the same verdict and the same categories as the scored judge in all 83 cases. `examine.py` checks this.
+- **`examine.py --evidence DIR`.** Examines an altered copy without touching the package.
+- **This README:** the refund lifecycle, the glossary, the two records, crash points in practical terms, intended stops versus availability costs, the race timing, the limits of fingerprints, and the trusted components.
+- **Removed `tools/__pycache__/`.** Python bytecode caches had been included by mistake in commit `41718f4`.

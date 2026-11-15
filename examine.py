@@ -1,15 +1,20 @@
 """Examiner's verifier for the Keystone consequence-boundary demonstration.
 
-Standard library only. Needs nothing but this package. For every case in evidence/ it:
+Standard library only. Needs nothing but this package. For every case it:
   1 checks the case's SHA256SUMS
-  2 re-runs the independent judge (tools/judge.py) on a COPY of the case's evidence and checks that it
+  2 re-runs the scored judge (tools/judge.py) on a COPY of the case's evidence and checks that it
     reproduces the published judge.json byte for byte
   3 recomputes the verdict from the published case catalogue (cases.json) and the judge's result, and
     checks it against the published verdict in case.json
+  4 re-judges with judge version 2 (tools/judge_v2.py, a post-scoring correction that also counts
+    destination records lacking a chain entry) and checks that it reaches the same verdict and the
+    same per-refund categories
 and prints a summary. The verdict logic below (evidence_check, verdict) is copied unchanged from the
 demonstration's test interface.
 
-Usage: python3 examine.py [CASE ...]
+Usage: python3 examine.py [--evidence DIR] [CASE ...]
+  --evidence DIR   examine another evidence folder, for example an altered copy you made, instead of
+                   this package's evidence/ (the package itself is never modified)
 """
 import hashlib
 import json
@@ -21,6 +26,7 @@ import tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "tools"))
 import judge as J  # noqa: E402
+import judge_v2 as J2  # noqa: E402
 
 def evidence_check(req, j):
     """Each requirement must be positively observed in Zone O evidence. Returns (ok, statement)."""
@@ -108,35 +114,50 @@ def check_sums(d):
     return bad
 
 
-def main(ids):
-    cat = {c["id"]: c for c in json.load(open(os.path.join(HERE, "cases.json")))["cases"]}
+def main(argv):
     ev = os.path.join(HERE, "evidence")
+    if "--evidence" in argv:
+        i = argv.index("--evidence")
+        ev = os.path.abspath(argv[i + 1])
+        del argv[i:i + 2]
+    ids = argv
+    cat = {c["id"]: c for c in json.load(open(os.path.join(HERE, "cases.json")))["cases"]}
     ids = ids or sorted(n for n in os.listdir(ev) if os.path.isdir(os.path.join(ev, n)))
+    print("evidence:", ev)
     rows, problems = [], 0
     for cid in ids:
         d = os.path.join(ev, cid)
-        sums_bad = check_sums(d)
+        sums_bad = check_sums(d) if os.path.exists(os.path.join(d, "SHA256SUMS")) else ["no SHA256SUMS"]
         tmp = tempfile.mkdtemp()
         shutil.copytree(d, os.path.join(tmp, "c"))
-        published_judge = open(os.path.join(d, "judge.json"), "rb").read()
-        os.remove(os.path.join(tmp, "c", "judge.json"))
+        published_judge = open(os.path.join(d, "judge.json"), "rb").read() if os.path.exists(os.path.join(d, "judge.json")) else b""
+        for f in ("judge.json", "judge_v2.json"):
+            if os.path.exists(os.path.join(tmp, "c", f)):
+                os.remove(os.path.join(tmp, "c", f))
         j = J.judge(os.path.join(tmp, "c"))
         judge_same = open(os.path.join(tmp, "c", "judge.json"), "rb").read() == published_judge
         v = verdict(cat[cid], j, None)
         published = json.load(open(os.path.join(d, "case.json")))["verdict"]["status"]
         verdict_same = v["status"].split(" (")[0] == published.split(" (")[0]
-        ok = not sums_bad and judge_same and verdict_same
+        j2 = J2.judge(os.path.join(tmp, "c"))
+        v2 = verdict(cat[cid], j2, None)
+        v2_same = v2["status"].split(" (")[0] == v["status"].split(" (")[0] and \
+            {k: x["category"] for k, x in j2["obligations"].items()} == {k: x["category"] for k, x in j["obligations"].items()}
+        ok = not sums_bad and judge_same and verdict_same and v2_same
         problems += not ok
-        rows.append((cid, cat[cid]["kind"], v["status"], ok, sums_bad, judge_same, verdict_same))
-    for cid, kind, st, ok, sb, js, vs in rows:
+        rows.append((cid, cat[cid]["kind"], v["status"], ok, sums_bad, judge_same, verdict_same, v2_same, v2["status"], j2))
+    for cid, kind, st, ok, sb, js, vs, v2s, st2, j2 in rows:
         print("%-36s %-10s %-52s %s" % (cid, kind, st[:52], "reproduced" if ok else
-              "PROBLEM: sums %s, judge %s, verdict %s" % (sb or "ok", "same" if js else "DIFFERENT", "same" if vs else "DIFFERENT")))
+              "PROBLEM: sums %s, judge %s, verdict %s, judge v2 %s" % (
+                  sb or "ok", "same" if js else "DIFFERENT", "same" if vs else "DIFFERENT",
+                  "same" if v2s else "DIFFERENT -> %s; effects counted by v2: %d" % (st2[:60], j2["effects_total"]))))
     k = lambda kind: [r for r in rows if r[1] == kind]
     print()
     print("correct configuration: %d cases, %d PASS" % (len(k("correct")), sum(1 for r in k("correct") if r[2] == "PASS")))
     print("negative controls:     %d, bit %d" % (len(k("control")), sum(1 for r in k("control") if r[2].startswith("CONTROL BIT"))))
     print("known limitation:      %d, forbidden result observed in %d" % (len(k("limitation")), sum(1 for r in k("limitation") if r[2].startswith("KNOWN LIMITATION OBSERVED"))))
     print("baseline (no boundary): %s" % "; ".join(r[2] for r in k("baseline")))
+    print("judge version 2:       same verdict and categories as the scored judge in %d of %d cases" % (sum(1 for r in rows if r[7]), len(rows)))
     print("EXAMINATION:", "every published result reproduced from the published evidence" if problems == 0 else "%d cases with problems" % problems)
     return 1 if problems else 0
 
