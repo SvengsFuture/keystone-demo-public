@@ -1,6 +1,6 @@
 # Keystone consequence-boundary demonstration: examiner package
 
-**Status: pre-release, for private examination. Not yet published.**
+**Status: public research evidence package. Experimental, not production software.**
 This package is the evidence from one demonstration run, the independent judge that evaluated it, and a
 verifier you can run yourself. Everything in it is synthetic: no real payment service, account,
 credential or customer was involved.
